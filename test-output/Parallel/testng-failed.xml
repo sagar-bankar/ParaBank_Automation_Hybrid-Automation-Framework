@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Parallel]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="parallel2(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.TC_005_Verify_login_failure_with_incorrect_password">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="Verify_login_failure_with_incorrect_password"/>
+        </methods>
+      </class> <!-- testCases.TC_005_Verify_login_failure_with_incorrect_password -->
+      <class name="testCases.TC_001_Verify_Logo">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="Verify_Logo"/>
+        </methods>
+      </class> <!-- testCases.TC_001_Verify_Logo -->
+      <class name="testCases.TC_002_Registration_of_new_user">
+        <methods>
+          <include name="setup"/>
+          <include name="Registration_of_new_user"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC_002_Registration_of_new_user -->
+    </classes>
+  </test> <!-- parallel2(failed) -->
+</suite> <!-- Failed suite [Parallel] -->

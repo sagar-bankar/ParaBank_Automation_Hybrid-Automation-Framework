@@ -1,0 +1,95 @@
+12:24:04.580 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+11:11:19.340 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+11:29:48.192 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+11:30:16.345 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+11:30:44.503 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+11:32:15.348 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+11:33:14.546 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+12:02:07.783 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+12:07:24.513 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+12:09:59.662 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+12:12:13.238 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+12:14:42.378 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+12:16:24.234 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+12:39:59.799 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+13:03:42.140 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+13:05:14.213 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+13:05:32.059 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+13:32:56.698 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+13:46:30.523 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+13:50:57.465 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+13:51:10.642 [main] INFO  testCases.TC_002_Registration_of_new_user - username random string: PVW
+13:51:22.310 [main] INFO  testCases.TC_003_User_login_with_valid_credentials - username random string: 2QM
+14:01:44.251 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+14:01:55.496 [main] INFO  testCases.TC_002_Registration_of_new_user - username random string: Bsz
+14:02:05.816 [main] INFO  testCases.TC_003_User_login_with_valid_credentials - username random string: SAE
+14:12:54.320 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+14:17:17.459 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+14:19:02.768 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+14:19:19.177 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+14:34:58.897 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+14:36:23.012 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+14:36:39.070 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+14:59:52.015 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+15:00:44.176 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+15:01:15.905 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+15:01:35.588 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+16:06:50.884 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+16:07:52.713 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+16:08:23.269 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+16:08:40.975 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+16:09:07.735 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+16:10:51.539 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+16:11:44.073 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+16:12:11.265 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+16:12:31.703 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+16:14:03.272 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+16:14:41.342 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+16:15:01.068 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+16:26:22.624 [TestNG-tests-1] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+16:26:22.624 [TestNG-tests-3] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+16:26:37.471 [TestNG-tests-2] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+16:28:43.382 [TestNG-tests-1] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+16:29:36.433 [TestNG-tests-2] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+16:29:54.724 [TestNG-tests-1] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+16:31:02.678 [TestNG-tests-1] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+16:31:25.147 [TestNG-tests-2] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+16:31:58.417 [TestNG-tests-2] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+18:29:31.337 [TestNG-tests-3] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+18:29:31.348 [TestNG-tests-1] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+18:32:23.299 [TestNG-tests-2] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+18:33:23.914 [TestNG-tests-2] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+18:33:57.747 [TestNG-tests-2] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+18:36:53.256 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+18:37:46.198 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+18:38:19.548 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+18:38:36.994 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+19:23:51.245 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+19:24:35.634 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+19:24:57.754 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+19:25:12.603 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+19:26:16.020 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+19:27:20.023 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+19:27:53.624 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+19:28:15.142 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+15:01:54.333 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.1\Master.xml"
+15:03:47.971 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.1\Master.xml"
+15:04:08.148 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+15:05:10.112 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+15:05:37.718 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+15:05:54.655 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+15:08:30.292 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.1\Master.xml"
+15:08:41.153 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+15:09:15.654 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+15:09:28.434 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+15:09:45.676 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+15:32:05.790 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.1\Master.xml"
+15:32:27.152 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+15:33:24.758 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+15:33:39.991 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+15:33:56.883 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+15:50:04.480 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.1\Master.xml"
+15:50:16.835 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+15:51:06.833 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+15:51:22.333 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+15:51:37.977 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true

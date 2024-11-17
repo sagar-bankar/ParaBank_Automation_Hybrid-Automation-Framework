@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Master</th></tr>
+<tr><td><a href="#t0">Master</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">148,426</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Master</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Master &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC_005_Verify_login_failure_with_incorrect_password</td><td><a href="#m0">Verify_login_failure_with_incorrect_password</a></td><td rowspan="1">1731765453728</td><td rowspan="1">530</td></tr><tr><th colspan="4">Master &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC_001_Verify_Logo</td><td><a href="#m1">Verify_Logo</a></td><td rowspan="1">1731765375225</td><td rowspan="1">898</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC_002_Registration_of_new_user</td><td><a href="#m2">Registration_of_new_user</a></td><td rowspan="1">1731765393637</td><td rowspan="1">10453</td></tr><tr class="passedeven"><td rowspan="1">testCases.TC_003_User_login_with_valid_credentials</td><td><a href="#m3">User_login_with_valid_credentials</a></td><td rowspan="1">1731765418263</td><td rowspan="1">4254</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC_004_Verify_login_failure_with_empty_username</td><td><a href="#m4">Verify_login_failure_with_empty_username</a></td><td rowspan="1">1731765436603</td><td rowspan="1">3420</td></tr><tr class="passedeven"><td rowspan="1">testCases.TC_006_Verify_account_balance_display_after_login</td><td><a href="#m5">Verify_account_balance_display_after_login</a></td><td rowspan="1">1731765468988</td><td rowspan="1">4723</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC_007_Verify_successful_logout</td><td><a href="#m6">Verify_successful_logout</a></td><td rowspan="1">1731765488672</td><td rowspan="1">6470</td></tr></tbody>
+</table>
+<h2>Master</h2><h3 id="m0">testCases.TC_005_Verify_login_failure_with_incorrect_password#Verify_login_failure_with_incorrect_password</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
+	at pageObjects.HomePage.sendpassword(HomePage.java:85)
+	at testCases.TC_005_Verify_login_failure_with_incorrect_password.Verify_login_failure_with_incorrect_password(TC_005_Verify_login_failure_with_incorrect_password.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.TC_001_Verify_Logo#Verify_Logo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.TC_002_Registration_of_new_user#Registration_of_new_user</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.TC_003_User_login_with_valid_credentials#User_login_with_valid_credentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.TC_004_Verify_login_failure_with_empty_username#Verify_login_failure_with_empty_username</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.TC_006_Verify_account_balance_display_after_login#Verify_account_balance_display_after_login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testCases.TC_007_Verify_successful_logout#Verify_successful_logout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
