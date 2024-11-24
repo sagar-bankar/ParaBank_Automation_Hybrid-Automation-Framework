@@ -37,7 +37,7 @@ public class BaseClass {
 	public WebDriverWait wait;
 	public static String randomString;
 	
-	
+	//Base class
 	@BeforeClass
 	@Parameters({"os","browser"})
 	public void setup(String os,String br) throws IOException 
