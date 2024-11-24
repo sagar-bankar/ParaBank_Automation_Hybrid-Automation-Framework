@@ -93,3 +93,13 @@
 15:51:06.833 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
 15:51:22.333 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
 15:51:37.977 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+20:30:26.995 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.1\Master.xml"
+20:32:44.927 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+20:36:45.159 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+20:37:38.017 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+20:38:31.922 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+19:37:55.191 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+18:04:08.008 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+18:07:06.277 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+18:08:51.147 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+18:09:46.871 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
