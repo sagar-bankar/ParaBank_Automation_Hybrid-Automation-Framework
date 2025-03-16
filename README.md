@@ -1,8 +1,8 @@
-Parabank_V1.1
+**Parabank_V1.1**
 
 A comprehensive virtual banking application designed for testing and simulating financial transactions.
 
-Table of Contents
+**Table of Contents**
 Introduction
 Features
 Installation
@@ -10,10 +10,11 @@ Usage
 Contributing
 License
 Contact
-Introduction
+
+**Introduction**
 Parabank_V1.1 is a virtual banking application that simulates a real-world banking environment. It offers functionalities such as user registration, account management, fund transfers, and transaction history. This project serves as a platform for testing and demonstrating various software testing techniques.
 
-Features
+**Features**
 User Registration and Authentication
 Account Management
 Fund Transfers
