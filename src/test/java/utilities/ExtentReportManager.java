@@ -29,7 +29,7 @@ public class ExtentReportManager implements ITestListener {
        String reportFileName = "Test-report-" + timeStamp + ".html"; // Report file name
 
         // Initialize ExtentSparkReporter with the path where the report will be saved
-        ExtentSparkReporter htmlReporter = new ExtentSparkReporter("C:\\Workspaces\\30-10-2024 On words\\Parabank_V1.1\\reports\\"+reportFileName);
+        ExtentSparkReporter htmlReporter = new ExtentSparkReporter("C:\\Workspaces\\30-10-2024 On words\\Parabank_V1.2\\reports\\"+reportFileName);
         htmlReporter.config().setDocumentTitle("Automation Test Report"); // Title of the report
         htmlReporter.config().setReportName("Functional Test Report"); // Name of the report
        // htmlReporter.config().setTheme(Theme.STANDARD); // Theme of the report

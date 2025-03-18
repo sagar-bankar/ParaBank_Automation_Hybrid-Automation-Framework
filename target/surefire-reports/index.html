@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Master" class="navigator-link">
-              <span class="suite-name border-passed">Master</span>
+              <span class="suite-name border-skipped">Master</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Master" class="navigator-link ">
-                    <span>C:\Workspaces\30-10-2024 On words\Parabank_V1.1\Master.xml</span>
+                    <span>C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">7 methods,  1 skipped,  6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Master" class="hide-methods skipped suite-Master"> (hide)</a> <!-- hide-methods skipped suite-Master -->
+                      <a href="#" panel-name="suite-Master" class="show-methods skipped suite-Master"> (show)</a> <!-- show-methods skipped suite-Master -->
+                    </span>
+                    <div class="method-list-content skipped suite-Master">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master" title="testCases.TC_001_Verify_Logo" class="method navigator-link" hash-for-method="Verify_Logo">Verify_Logo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Master -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -113,17 +127,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master" title="testCases.TC_001_Verify_Logo" class="method navigator-link" hash-for-method="Verify_Logo">Verify_Logo</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Master" title="testCases.TC_006_Verify_account_balance_display_after_login" class="method navigator-link" hash-for-method="Verify_account_balance_display_after_login">Verify_account_balance_display_after_login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Master" title="testCases.TC_004_Verify_login_failure_with_empty_username" class="method navigator-link" hash-for-method="Verify_login_failure_with_empty_username">Verify_login_failure_with_empty_username</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master" title="testCases.TC_005_Verify_login_failure_with_incorrect_password" class="method navigator-link" hash-for-method="Verify_login_failure_with_incorrect_password">Verify_login_failure_with_incorrect_password</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -143,9 +157,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Master" class="panel Master">
-          <div class="suite-Master-class-passed">
+          <div class="suite-Master-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">testCases.TC_001_Verify_Logo</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -154,21 +168,48 @@
                   <a name="Verify_Logo">
                   </a> <!-- Verify_Logo -->
                   <span class="method-name">Verify_Logo</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d6bb4446a4f1397bfbe4954ff3b3950, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\omsai\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63336}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63336/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d6bb4446a4f1397bfbe4954ff3b3950
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:418)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+	at testCases.BaseClass.setup(BaseClass.java:110)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:401)
+	... 39 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Master-class-passed -->
+          </div> <!-- suite-Master-class-skipped -->
           <div class="suite-Master-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC_007_Verify_successful_logout</span>
+              <span class="class-name">testCases.TC_006_Verify_account_balance_display_after_login</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Verify_successful_logout">
-                  </a> <!-- Verify_successful_logout -->
-                  <span class="method-name">Verify_successful_logout</span>
+                  <a name="Verify_account_balance_display_after_login">
+                  </a> <!-- Verify_account_balance_display_after_login -->
+                  <span class="method-name">Verify_account_balance_display_after_login</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -191,14 +232,29 @@
           <div class="suite-Master-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC_006_Verify_account_balance_display_after_login</span>
+              <span class="class-name">testCases.TC_005_Verify_login_failure_with_incorrect_password</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Verify_account_balance_display_after_login">
-                  </a> <!-- Verify_account_balance_display_after_login -->
-                  <span class="method-name">Verify_account_balance_display_after_login</span>
+                  <a name="Verify_login_failure_with_incorrect_password">
+                  </a> <!-- Verify_login_failure_with_incorrect_password -->
+                  <span class="method-name">Verify_login_failure_with_incorrect_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master-class-passed -->
+          <div class="suite-Master-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_007_Verify_successful_logout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_successful_logout">
+                  </a> <!-- Verify_successful_logout -->
+                  <span class="method-name">Verify_successful_logout</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -236,7 +292,7 @@
         </div> <!-- panel Master -->
         <div panel-name="test-xml-Master" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Workspaces\30-10-2024 On words\Parabank_V1.1\Master.xml</span>
+            <span class="header-content">C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -254,6 +310,7 @@
       &lt;class name=&quot;testCases.TC_002_Registration_of_new_user&quot;/&gt;
       &lt;class name=&quot;testCases.TC_003_User_login_with_valid_credentials&quot;/&gt;
       &lt;class name=&quot;testCases.TC_004_Verify_login_failure_with_empty_username&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_005_Verify_login_failure_with_incorrect_password&quot;/&gt;
       &lt;class name=&quot;testCases.TC_006_Verify_account_balance_display_after_login&quot;/&gt;
       &lt;class name=&quot;testCases.TC_007_Verify_successful_logout&quot;/&gt;
     &lt;/classes&gt;
@@ -269,7 +326,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Master (6 classes)</span>
+                <span class="test-name">Master (7 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -300,6 +357,10 @@
               </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">Verify_login_failure_with_empty_username</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_login_failure_with_incorrect_password</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -343,36 +404,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Registration_of_new_user')
 data.setCell(0, 2, 'testCases.TC_002_Registration_of_new_user')
-data.setCell(0, 3, 18953);
+data.setCell(0, 3, 14125);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Verify_Logo')
-data.setCell(1, 2, 'testCases.TC_001_Verify_Logo')
-data.setCell(1, 3, 9791);
+data.setCell(1, 1, 'User_login_with_valid_credentials')
+data.setCell(1, 2, 'testCases.TC_003_User_login_with_valid_credentials')
+data.setCell(1, 3, 9373);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'Verify_successful_logout')
 data.setCell(2, 2, 'testCases.TC_007_Verify_successful_logout')
-data.setCell(2, 3, 9662);
+data.setCell(2, 3, 4630);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'Verify_account_balance_display_after_login')
 data.setCell(3, 2, 'testCases.TC_006_Verify_account_balance_display_after_login')
-data.setCell(3, 3, 6792);
+data.setCell(3, 3, 3980);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'User_login_with_valid_credentials')
-data.setCell(4, 2, 'testCases.TC_003_User_login_with_valid_credentials')
-data.setCell(4, 3, 5368);
+data.setCell(4, 1, 'Verify_login_failure_with_incorrect_password')
+data.setCell(4, 2, 'testCases.TC_005_Verify_login_failure_with_incorrect_password')
+data.setCell(4, 3, 3020);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'Verify_login_failure_with_empty_username')
 data.setCell(5, 2, 'testCases.TC_004_Verify_login_failure_with_empty_username')
-data.setCell(5, 3, 4877);
+data.setCell(5, 3, 2752);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Verify_Logo')
+data.setCell(6, 2, 'testCases.TC_001_Verify_Logo')
+data.setCell(6, 3, 0);
 window.suiteTableData['Master']= { tableData: data, tableDiv: 'times-div-Master'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 55 seconds</span>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
               <div id="times-div-Master">
               </div> <!-- times-div-Master -->
             </div> <!-- times-div -->
@@ -400,91 +465,100 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_001_Verify_Logo</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setup(windows, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">Verify_Logo</span>
-                <span class="method-start">124166 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">133977 ms</span>
-              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_002_Registration_of_new_user</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">142127 ms</span>
+                <span class="method-start">258008 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Registration_of_new_user</span>
-                <span class="method-start">210058 ms</span>
+                <span class="method-start">319772 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">229016 ms</span>
+                <span class="method-start">333902 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_003_User_login_with_valid_credentials</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">232854 ms</span>
+                <span class="method-start">336229 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">User_login_with_valid_credentials</span>
-                <span class="method-start">308453 ms</span>
+                <span class="method-start">370813 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">313822 ms</span>
+                <span class="method-start">380190 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_004_Verify_login_failure_with_empty_username</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">317136 ms</span>
+                <span class="method-start">386316 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Verify_login_failure_with_empty_username</span>
-                <span class="method-start">369062 ms</span>
+                <span class="method-start">419613 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">373944 ms</span>
+                <span class="method-start">422367 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_005_Verify_login_failure_with_incorrect_password</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">423673 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Verify_login_failure_with_incorrect_password</span>
+                <span class="method-start">440237 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">443258 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_006_Verify_account_balance_display_after_login</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">375688 ms</span>
+                <span class="method-start">444290 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Verify_account_balance_display_after_login</span>
-                <span class="method-start">420037 ms</span>
+                <span class="method-start">464440 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">426830 ms</span>
+                <span class="method-start">468422 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_007_Verify_successful_logout</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">428278 ms</span>
+                <span class="method-start">470118 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Verify_successful_logout</span>
-                <span class="method-start">471041 ms</span>
+                <span class="method-start">486751 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">480705 ms</span>
+                <span class="method-start">491383 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

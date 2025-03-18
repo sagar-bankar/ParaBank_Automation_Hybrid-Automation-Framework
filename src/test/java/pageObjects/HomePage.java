@@ -8,11 +8,11 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
 	
-	public WebDriver driver;
+	 WebDriver driver;
 	
 	public HomePage(WebDriver driver)
 	{
-		this.driver=driver;
+		//this.driver=driver;
 		
 		PageFactory.initElements(driver, this);
 		

@@ -43,7 +43,7 @@ public class BaseClass {
 	public void setup(String os,String br) throws IOException 
 	{
 		//Load properties file 
-				FileReader file =new FileReader("C:\\Workspaces\\30-10-2024 On words\\Parabank_V1.1\\src\\test\\resources\\config.properties");
+				FileReader file =new FileReader("C:\\Workspaces\\30-10-2024 On words\\Parabank_V1.2\\src\\test\\resources\\config.properties");
 				p=new Properties();
 				p.load(file);
 		
@@ -120,7 +120,7 @@ public class BaseClass {
 		
 		TakesScreenshot takesScreenshot= (TakesScreenshot)driver;
 		File SourceFile=takesScreenshot.getScreenshotAs(OutputType.FILE);
-		String path="C:\\Workspaces\\30-10-2024 On words\\Parabank_V1.1\\screenshots\\"+tname+" "+timeStamp+".png";
+		String path="C:\\Workspaces\\30-10-2024 On words\\Parabank_V1.2\\screenshots\\"+tname+" "+timeStamp+".png";
 		File targetfile=new File(path);
 		
 		SourceFile.renameTo(targetfile);

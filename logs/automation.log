@@ -103,3 +103,24 @@
 18:07:06.277 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
 18:08:51.147 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
 18:09:46.871 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+18:53:00.120 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+18:54:36.336 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+19:08:14.385 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+21:26:46.906 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+21:33:59.156 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+21:42:32.985 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+21:50:38.130 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+22:39:29.367 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+22:48:18.871 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+23:02:14.190 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+23:02:51.665 [main] INFO  testCases.TC_005_Verify_login_failure_with_incorrect_password - The username and password could not be verified.
+23:10:00.192 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+23:17:33.587 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+23:18:07.496 [main] INFO  testCases.TC_005_Verify_login_failure_with_incorrect_password - The username and password could not be verified.
+23:18:34.522 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+23:19:17.257 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+23:24:35.105 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+23:31:41.961 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+23:32:02.853 [main] INFO  testCases.TC_005_Verify_login_failure_with_incorrect_password - The username and password could not be verified.
+23:32:27.970 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
+23:32:50.977 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true

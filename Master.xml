@@ -4,25 +4,29 @@
 
 <suite name="Master">
 
-  <listeners> 
-  <listener  class-name="utilities.ExtentReportManager"/>
-  </listeners>
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
 
-  <test thread-count="5" name="Master">
-    <parameter  name="os"  value="windows"/>
-    <parameter  name="browser"  value="chrome"/> 
-  
-    <classes>
-      <class name="testCases.TC_001_Verify_Logo"/>
-      <class name="testCases.TC_002_Registration_of_new_user"/>
-      <class name="testCases.TC_003_User_login_with_valid_credentials"/>
-      <class name="testCases.TC_004_Verify_login_failure_with_empty_username"/>
-    <!--  <class name="testCases.TC_005_Verify_login_failure_with_incorrect_password"/>  -->
-      <class name="testCases.TC_006_Verify_account_balance_display_after_login"/>
-      <class name="testCases.TC_007_Verify_successful_logout"/>
-      
-       
-      
-    </classes>
-  </test> <!-- Master -->
+	<test thread-count="5" name="Master">
+		<parameter name="os" value="windows" />
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="testCases.TC_001_Verify_Logo" />
+			<class name="testCases.TC_002_Registration_of_new_user" />
+			<class
+				name="testCases.TC_003_User_login_with_valid_credentials" />
+			<class
+				name="testCases.TC_004_Verify_login_failure_with_empty_username" />
+			<class
+				name="testCases.TC_005_Verify_login_failure_with_incorrect_password" />
+			<class
+				name="testCases.TC_006_Verify_account_balance_display_after_login" />
+			<class name="testCases.TC_007_Verify_successful_logout" />
+
+
+
+		</classes>
+	</test> <!-- Master -->
 </suite> <!-- Master -->
