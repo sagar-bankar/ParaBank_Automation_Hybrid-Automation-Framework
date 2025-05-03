@@ -16,6 +16,8 @@
 
 📝 Logging handled via log4j 2
 
+---
+
 🛠 Technologies Used
 Java
 
