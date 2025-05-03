@@ -1,78 +1,26 @@
-**Parabank_V1.1**
+🔹 Project 2 - Parabank Automation (TDD Framework)
+📌 Automated testing of a banking web application: Parabank by Parasoft
+✅ Built using TestNG, Selenium WebDriver, and Java (Maven project)
+🧪 Follows the Test-Driven Development (TDD) approach
+📁 Structured with Page Object Model (POM) for maintainability
+📖 Test data is read from Excel using Apache POI
+📊 Extent Reports generated for test execution insights
+📸 Auto-captures screenshots on test failures
+📝 Logging handled via log4j 2
 
-A comprehensive virtual banking application designed for testing and simulating financial transactions.
+🛠 Technologies Used
+Java
 
-**Table of Contents**
-Introduction
-Features
-Installation
-Usage
-Contributing
-License
-Contact
+Selenium WebDriver
 
-**Introduction**
-Parabank_V1.1 is a virtual banking application that simulates a real-world banking environment. It offers functionalities such as user registration, account management, fund transfers, and transaction history. This project serves as a platform for testing and demonstrating various software testing techniques.
+TestNG
 
-**Features**
-User Registration and Authentication
-Account Management
-Fund Transfers
-Transaction History
-Responsive User Interface
-Installation
-To set up the project locally:
+Apache POI (Excel data handling)
 
-Clone the repository:
+Maven
 
-bash
-Copy
-Edit
-git clone https://github.com/sagarjav/Parabank_V1.1.git
-Navigate to the project directory:
+ExtentReports
 
-bash
-Copy
-Edit
-cd Parabank_V1.1
-Build the application using Maven:
+log4j2
 
-bash
-Copy
-Edit
-mvn clean install
-Deploy the parabank.war file (located in the target directory) to an Apache Tomcat server.
-
-Usage
-Once deployed, access the application at http://localhost:8080/parabank. Users can register, log in, manage accounts, transfer funds, and view transaction histories.
-
-Contributing
-Contributions are welcome! To contribute:
-
-Fork the repository.
-
-Create a new branch:
-
-bash
-Copy
-Edit
-git checkout -b feature/YourFeatureName
-Commit your changes:
-
-bash
-Copy
-Edit
-git commit -m 'Add some feature'
-Push to the branch:
-
-bash
-Copy
-Edit
-git push origin feature/YourFeatureName
-Open a pull request.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contact
-For inquiries or feedback, please contact Your Name.
+Commons IO / Lang (utility support)
