@@ -25,8 +25,6 @@ Selenium WebDriver
 
 TestNG
 
-Apache POI (Excel data handling)
-
 Maven
 
 ExtentReports
