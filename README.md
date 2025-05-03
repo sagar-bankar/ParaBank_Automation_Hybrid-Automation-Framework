@@ -1,4 +1,5 @@
 🔹 Project 2 - Parabank Automation (TDD Framework)
+
 📌 Automated testing of a banking web application: Parabank by Parasoft
 ✅ Built using TestNG, Selenium WebDriver, and Java (Maven project)
 🧪 Follows the Test-Driven Development (TDD) approach
