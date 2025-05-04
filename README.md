@@ -19,6 +19,7 @@
 ---
 
 🛠 Technologies Used
+
 Java
 
 Selenium WebDriver
