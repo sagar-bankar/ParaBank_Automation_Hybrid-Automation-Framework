@@ -5,7 +5,7 @@
 <suite name="Parallel" parallel="tests">
 
   <listeners> 
-  <listener  class-name="utilities.ExtentReportManager"/>
+  <listener  class-name="com.parabank.utils.ExtentReportManager"/>
   </listeners>
 
   <test thread-count="5" name="parallel1">
@@ -13,13 +13,17 @@
     <parameter  name="browser"  value="chrome"/> 
   
     <classes>
-      <class name="testCases.TC_001_Verify_Logo"/>
-      <class name="testCases.TC_002_Registration_of_new_user"/>
-      <class name="testCases.TC_003_User_login_with_valid_credentials"/>
-      <class name="testCases.TC_004_Verify_login_failure_with_empty_username"/>
-      <class name="testCases.TC_005_Verify_login_failure_with_incorrect_password"/>
-      <class name="testCases.TC_006_Verify_account_balance_display_after_login"/>
-      <class name="testCases.TC_007_Verify_successful_logout"/>
+     <class name="com.parabank.tests.TC001_VerifyLogoTest" />
+			<class name="com.parabank.tests.TC002_RegistrationOfNewUserTest" />
+			<class
+				name="com.parabank.tests.TC003_UserLoginWithValidCredentialsTest" />
+			<class
+				name="com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest" />
+			<class
+				name="com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest" />
+			<class
+				name="com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest" />
+			<class name="com.parabank.tests.TC007_VerifySuccessfulLogoutTest" />
       
        
       
@@ -31,13 +35,17 @@
     <parameter  name="browser"  value="firefox"/> 
   
     <classes>
-      <class name="testCases.TC_001_Verify_Logo"/>
-      <class name="testCases.TC_002_Registration_of_new_user"/>
-      <class name="testCases.TC_003_User_login_with_valid_credentials"/>
-      <class name="testCases.TC_004_Verify_login_failure_with_empty_username"/>
-      <class name="testCases.TC_005_Verify_login_failure_with_incorrect_password"/>
-      <class name="testCases.TC_006_Verify_account_balance_display_after_login"/>
-      <class name="testCases.TC_007_Verify_successful_logout"/>
+     <class name="com.parabank.tests.TC001_VerifyLogoTest" />
+			<class name="com.parabank.tests.TC002_RegistrationOfNewUserTest" />
+			<class
+				name="com.parabank.tests.TC003_UserLoginWithValidCredentialsTest" />
+			<class
+				name="com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest" />
+			<class
+				name="com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest" />
+			<class
+				name="com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest" />
+			<class name="com.parabank.tests.TC007_VerifySuccessfulLogoutTest" />
       
     </classes>
   </test> <!-- Master -->
@@ -47,13 +55,17 @@
     <parameter  name="browser"  value="edge"/> 
   
     <classes>
-      <class name="testCases.TC_001_Verify_Logo"/>
-      <class name="testCases.TC_002_Registration_of_new_user"/>
-      <class name="testCases.TC_003_User_login_with_valid_credentials"/>
-      <class name="testCases.TC_004_Verify_login_failure_with_empty_username"/>
-      <class name="testCases.TC_005_Verify_login_failure_with_incorrect_password"/>
-      <class name="testCases.TC_006_Verify_account_balance_display_after_login"/>
-      <class name="testCases.TC_007_Verify_successful_logout"/>
+      <class name="com.parabank.tests.TC001_VerifyLogoTest" />
+			<class name="com.parabank.tests.TC002_RegistrationOfNewUserTest" />
+			<class
+				name="com.parabank.tests.TC003_UserLoginWithValidCredentialsTest" />
+			<class
+				name="com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest" />
+			<class
+				name="com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest" />
+			<class
+				name="com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest" />
+			<class name="com.parabank.tests.TC007_VerifySuccessfulLogoutTest" />
       
        
       

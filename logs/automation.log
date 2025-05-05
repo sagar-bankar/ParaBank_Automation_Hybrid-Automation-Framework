@@ -124,3 +124,22 @@
 23:32:02.853 [main] INFO  testCases.TC_005_Verify_login_failure_with_incorrect_password - The username and password could not be verified.
 23:32:27.970 [main] INFO  testCases.TC_006_Verify_account_balance_display_after_login - true
 23:32:50.977 [main] INFO  testCases.TC_007_Verify_successful_logout - Login button displayed: true
+18:40:44.523 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+18:47:15.584 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+18:47:45.617 [main] INFO  testCases.TC_005_Verify_login_failure_with_incorrect_password - The username and password could not be verified.
+18:57:12.773 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+19:04:25.323 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+19:05:51.112 [main] INFO  testCases.TC_005_Verify_login_failure_with_incorrect_password - The username and password could not be verified.
+11:40:31.043 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+11:42:01.752 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+11:43:16.604 [main] INFO  testCases.TC_004_Verify_login_failure_with_empty_username - true
+11:43:31.897 [main] INFO  testCases.TC_005_Verify_login_failure_with_incorrect_password - An internal error has occurred and has been logged.
+12:08:25.092 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+12:08:54.125 [main] INFO  testCases.TC_001_Verify_Logo - Logo status is: true
+12:12:59.441 [main] INFO  testCases.TC_005_Verify_login_failure_with_incorrect_password - The username and password could not be verified.
+19:08:42.879 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+19:20:39.256 [main] INFO  com.parabank.tests.TC001_VerifyLogoTest - Logo status is: true
+19:21:37.847 [main] INFO  com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest - true
+19:21:53.874 [main] INFO  com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest - The username and password could not be verified.
+19:22:14.584 [main] INFO  com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest - true
+19:22:28.126 [main] INFO  com.parabank.tests.TC007_VerifySuccessfulLogoutTest - Login button displayed: true
