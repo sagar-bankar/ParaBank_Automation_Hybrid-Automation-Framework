@@ -14,7 +14,7 @@ public class TC001_VerifyLogoTest extends BaseClass {
 		waitForElementToBeVisible(H.getparaBank());
 		H.isDisplayed();
 		
-		logger.info("Logo status is:: "+ H.isDisplayed());
+		logger.info("Logo status is: "+ H.isDisplayed());
 		Assert.assertTrue(H.isDisplayed());
 		
 		
