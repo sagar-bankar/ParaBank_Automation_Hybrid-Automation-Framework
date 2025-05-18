@@ -7,7 +7,7 @@ import com.parabank.pages.HomePage;
 
 public class TC009_VerifyCaseSensitivityInLoginTest extends BaseClass {
 
-	@Test
+	@Test 
 	public void VerifyCaseSensitivityInLoginTest() {
 		HomePage homepage = new HomePage(driver);
 
