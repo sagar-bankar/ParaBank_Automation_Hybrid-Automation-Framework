@@ -1,6 +1,5 @@
 package com.parabank.tests;
 
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -19,36 +18,35 @@ import com.parabank.pages.MyAccountPage;
    - Automated: Yes
  * 
  */
-public class TC007_VerifySuccessfulLogoutTest extends BaseClass{
+public class TC007_VerifySuccessfulLogoutTest extends BaseClass {
 
-	@Test(groups= {"master"})
+	@Test(groups = { "master" })
 	public void Verify_successful_logout() {
-		//HomePage
-		HomePage H=new HomePage(driver);
-		
-		 wait.until(ExpectedConditions.visibilityOf(H.getusername()));
-		 H.sendusername(p.getProperty("Username")+getRandomString());
-		 
-		 wait.until(ExpectedConditions.visibilityOf(H.getpassword()));
-		 H.sendpassword(p.getProperty("Password"));
-		
-		 wait.until(ExpectedConditions.visibilityOf(H.getlogIn()));
-		 H.clickOnlogIn();
-		 
-		 //MyAccountPage
-		 MyAccountPage MA=new MyAccountPage(driver);
-		 wait.until(ExpectedConditions.visibilityOf(MA.getlogOut()));
-		 MA.clickOnlogOut();
-		 
-		 //HomePage
-		 wait.until(ExpectedConditions.visibilityOf(H.getcustomerLogin()));
-		 System.out.println( H.getcustomerLogin());
-		
-		 boolean iscustomerLoginDisplay=H.isDisplayedcustomerLogin();
-		 logger.info("Login button displayed: " + iscustomerLoginDisplay);
-		
-		 
-		 Assert.assertTrue( iscustomerLoginDisplay, "Verify_successful_logout is Failed ");
+		// HomePage
+		HomePage homepage = new HomePage(driver);
+
+		waitForElementToBeVisible(homepage.getusername());
+		homepage.sendusername(p.getProperty("Username") + getRandomString());
+
+		waitForElementToBeVisible(homepage.getpassword());
+		homepage.sendpassword(p.getProperty("Password"));
+
+		waitForElementToBeVisible(homepage.getlogIn());
+		homepage.clickOnlogIn();
+
+		// MyAccountPage
+		MyAccountPage myaccountpage = new MyAccountPage(driver);
+		waitForElementToBeVisible(myaccountpage.getlogOut());
+		myaccountpage.clickOnlogOut();
+
+		// HomePage
+		waitForElementToBeVisible(homepage.getcustomerLogin());
+		System.out.println(homepage.getcustomerLogin());
+
+		boolean iscustomerLoginDisplay = homepage.isDisplayedcustomerLogin();
+		logger.info("Login button displayed: " + iscustomerLoginDisplay);
+
+		Assert.assertTrue(iscustomerLoginDisplay, "Verify_successful_logout is Failed ");
 	}
-	
+
 }

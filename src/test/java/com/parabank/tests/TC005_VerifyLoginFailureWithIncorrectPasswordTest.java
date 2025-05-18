@@ -1,6 +1,5 @@
 package com.parabank.tests;
 
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -22,19 +21,19 @@ public class TC005_VerifyLoginFailureWithIncorrectPasswordTest extends BaseClass
 	@Test(groups= {"master"})
 	public void Verify_login_failure_with_incorrect_password() {
 		
-		HomePage h=new HomePage(driver);
-		wait.until(ExpectedConditions.visibilityOf(h.getusername()));
-		h.sendusername(p.getProperty("Username")+randomString);
+		HomePage homepage=new HomePage(driver);
+		waitForElementToBeVisible(homepage.getusername());
+		homepage.sendusername(p.getProperty("Username")+randomString);
 		
-		wait.until(ExpectedConditions.visibilityOf(h.getpassword()));
-		h.sendpassword(p.getProperty("Wrong_Password"));
+		waitForElementToBeVisible(homepage.getusername());
+		homepage.sendpassword(p.getProperty("Wrong_Password"));
 		
-		wait.until(ExpectedConditions.elementToBeClickable(h.getlogIn()));
-		h.clickOnlogIn();
+		elementToBeClicable(homepage.getlogIn());
+		homepage.clickOnlogIn();
 		
 		
 		String Expected="The username and password could not be verified.";
-		String Actual=h.pleaseEnterAUsernameAndPa();
+		String Actual=homepage.pleaseEnterAUsernameAndPa();
 		boolean result=Actual.contentEquals(Expected);
 		
 		logger.info(Actual);

@@ -1,6 +1,5 @@
 package com.parabank.tests;
 
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -21,30 +20,31 @@ import com.parabank.pages.MyAccountPage;
  */
 
 public class TC006_VerifyAccountBalanceDisplayAfterLoginTest extends BaseClass {
-	
-	@Test(groups= {"master"})
+
+	@Test(groups = { "master" })
 	public void Verify_account_balance_display_after_login() {
-		
-		HomePage H=new HomePage(driver);
-		
-		 wait.until(ExpectedConditions.visibilityOf(H.getusername()));
-		 H.sendusername(p.getProperty("Username")+getRandomString());
-		 
-		 wait.until(ExpectedConditions.visibilityOf(H.getpassword()));
-		 H.sendpassword(p.getProperty("Password"));
-		
-		 wait.until(ExpectedConditions.visibilityOf(H.getlogIn()));
-		 H.clickOnlogIn();
-		 
-		//MyAccountPage
-		 MyAccountPage MA=new MyAccountPage(driver);
-		 wait.until(ExpectedConditions.visibilityOf(MA.getaccountBalance()));
-		 MA.isaccountBalanceDisplay();
-		 
-		 logger.info(MA.isaccountBalanceDisplay());
-		 
-		 Assert.assertTrue(MA.isaccountBalanceDisplay(), "Verify_account_balance_display_after_login: "+MA.isaccountBalanceDisplay());
-		 
+
+		HomePage homepage = new HomePage(driver);
+
+		waitForElementToBeVisible(homepage.getusername());
+		homepage.sendusername(p.getProperty("Username") + getRandomString());
+
+		waitForElementToBeVisible(homepage.getpassword());
+		homepage.sendpassword(p.getProperty("Password"));
+
+		waitForElementToBeVisible(homepage.getlogIn());
+		homepage.clickOnlogIn();
+
+		// MyAccountPage
+		MyAccountPage myaccountpage = new MyAccountPage(driver);
+		waitForElementToBeVisible(myaccountpage.getaccountBalance());
+		myaccountpage.isaccountBalanceDisplay();
+
+		logger.info(myaccountpage.isaccountBalanceDisplay());
+
+		Assert.assertTrue(myaccountpage.isaccountBalanceDisplay(),
+				"Verify_account_balance_display_after_login: " + myaccountpage.isaccountBalanceDisplay());
+
 	}
 
 }

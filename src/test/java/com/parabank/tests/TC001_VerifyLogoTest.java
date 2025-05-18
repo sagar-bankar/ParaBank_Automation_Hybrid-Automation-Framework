@@ -10,12 +10,12 @@ public class TC001_VerifyLogoTest extends BaseClass {
 	@Test(groups= {"sanity","master"})
 	public void Verify_Logo() 
 	{
-		HomePage H= new HomePage(driver);
-		waitForElementToBeVisible(H.getparaBank());
-		H.isDisplayed();
+		HomePage homepage= new HomePage(driver);
+		waitForElementToBeVisible(homepage.getparaBank());
+		homepage.isDisplayed();
 		
-		logger.info("Logo status is: "+ H.isDisplayed());
-		Assert.assertTrue(H.isDisplayed());
+		logger.info("Logo status is: "+ homepage.isDisplayed());
+		Assert.assertTrue(homepage.isDisplayed());
 		
 		
 	}
