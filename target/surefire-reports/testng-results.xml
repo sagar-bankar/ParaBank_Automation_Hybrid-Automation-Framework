@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="4" failed="2" skipped="1">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-29T12:08:26 IST" name="Master" finished-at="2025-04-29T12:15:37 IST" duration-ms="430836">
+  <suite started-at="2025-05-18T14:16:43 IST" name="Master" finished-at="2025-05-18T14:18:30 IST" duration-ms="106969">
     <groups>
       <group name="regression">
-        <method signature="TC_002_Registration_of_new_user.Registration_of_new_user()[pri:0, instance:testCases.TC_002_Registration_of_new_user@7a560583]" name="Registration_of_new_user" class="testCases.TC_002_Registration_of_new_user"/>
+        <method signature="TC002_RegistrationOfNewUserTest.Registration_of_new_user()[pri:0, instance:com.parabank.tests.TC002_RegistrationOfNewUserTest@293a5f75]" name="Registration_of_new_user" class="com.parabank.tests.TC002_RegistrationOfNewUserTest"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TC_001_Verify_Logo.Verify_Logo()[pri:0, instance:testCases.TC_001_Verify_Logo@424ebba3]" name="Verify_Logo" class="testCases.TC_001_Verify_Logo"/>
-        <method signature="TC_003_User_login_with_valid_credentials.User_login_with_valid_credentials()[pri:0, instance:testCases.TC_003_User_login_with_valid_credentials@4d722ac9]" name="User_login_with_valid_credentials" class="testCases.TC_003_User_login_with_valid_credentials"/>
+        <method signature="TC001_VerifyLogoTest.Verify_Logo()[pri:0, instance:com.parabank.tests.TC001_VerifyLogoTest@7e7b159b]" name="Verify_Logo" class="com.parabank.tests.TC001_VerifyLogoTest"/>
+        <method signature="TC003_UserLoginWithValidCredentialsTest.User_login_with_valid_credentials()[pri:0, instance:com.parabank.tests.TC003_UserLoginWithValidCredentialsTest@fcb4004]" name="User_login_with_valid_credentials" class="com.parabank.tests.TC003_UserLoginWithValidCredentialsTest"/>
       </group> <!-- sanity -->
       <group name="master">
-        <method signature="TC_001_Verify_Logo.Verify_Logo()[pri:0, instance:testCases.TC_001_Verify_Logo@424ebba3]" name="Verify_Logo" class="testCases.TC_001_Verify_Logo"/>
-        <method signature="TC_002_Registration_of_new_user.Registration_of_new_user()[pri:0, instance:testCases.TC_002_Registration_of_new_user@7a560583]" name="Registration_of_new_user" class="testCases.TC_002_Registration_of_new_user"/>
-        <method signature="TC_003_User_login_with_valid_credentials.User_login_with_valid_credentials()[pri:0, instance:testCases.TC_003_User_login_with_valid_credentials@4d722ac9]" name="User_login_with_valid_credentials" class="testCases.TC_003_User_login_with_valid_credentials"/>
-        <method signature="TC_004_Verify_login_failure_with_empty_username.Verify_login_failure_with_empty_username()[pri:0, instance:testCases.TC_004_Verify_login_failure_with_empty_username@53f0a4cb]" name="Verify_login_failure_with_empty_username" class="testCases.TC_004_Verify_login_failure_with_empty_username"/>
-        <method signature="TC_005_Verify_login_failure_with_incorrect_password.Verify_login_failure_with_incorrect_password()[pri:0, instance:testCases.TC_005_Verify_login_failure_with_incorrect_password@77a7cf58]" name="Verify_login_failure_with_incorrect_password" class="testCases.TC_005_Verify_login_failure_with_incorrect_password"/>
-        <method signature="TC_006_Verify_account_balance_display_after_login.Verify_account_balance_display_after_login()[pri:0, instance:testCases.TC_006_Verify_account_balance_display_after_login@3d97a632]" name="Verify_account_balance_display_after_login" class="testCases.TC_006_Verify_account_balance_display_after_login"/>
-        <method signature="TC_007_Verify_successful_logout.Verify_successful_logout()[pri:0, instance:testCases.TC_007_Verify_successful_logout@616fe72b]" name="Verify_successful_logout" class="testCases.TC_007_Verify_successful_logout"/>
+        <method signature="TC001_VerifyLogoTest.Verify_Logo()[pri:0, instance:com.parabank.tests.TC001_VerifyLogoTest@7e7b159b]" name="Verify_Logo" class="com.parabank.tests.TC001_VerifyLogoTest"/>
+        <method signature="TC002_RegistrationOfNewUserTest.Registration_of_new_user()[pri:0, instance:com.parabank.tests.TC002_RegistrationOfNewUserTest@293a5f75]" name="Registration_of_new_user" class="com.parabank.tests.TC002_RegistrationOfNewUserTest"/>
+        <method signature="TC003_UserLoginWithValidCredentialsTest.User_login_with_valid_credentials()[pri:0, instance:com.parabank.tests.TC003_UserLoginWithValidCredentialsTest@fcb4004]" name="User_login_with_valid_credentials" class="com.parabank.tests.TC003_UserLoginWithValidCredentialsTest"/>
+        <method signature="TC004_VerifyLoginFailureWithEmptyUsernameTest.Verify_login_failure_with_empty_username()[pri:0, instance:com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest@1dd6d4b7]" name="Verify_login_failure_with_empty_username" class="com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest"/>
+        <method signature="TC005_VerifyLoginFailureWithIncorrectPasswordTest.Verify_login_failure_with_incorrect_password()[pri:0, instance:com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest@56e8b606]" name="Verify_login_failure_with_incorrect_password" class="com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest"/>
+        <method signature="TC006_VerifyAccountBalanceDisplayAfterLoginTest.Verify_account_balance_display_after_login()[pri:0, instance:com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest@2dd29a59]" name="Verify_account_balance_display_after_login" class="com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest"/>
+        <method signature="TC007_VerifySuccessfulLogoutTest.Verify_successful_logout()[pri:0, instance:com.parabank.tests.TC007_VerifySuccessfulLogoutTest@784c3487]" name="Verify_successful_logout" class="com.parabank.tests.TC007_VerifySuccessfulLogoutTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2025-04-29T12:08:26 IST" name="Master" finished-at="2025-04-29T12:15:37 IST" duration-ms="430836">
-      <class name="testCases.TC_007_Verify_successful_logout">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_007_Verify_successful_logout@616fe72b]" started-at="2025-04-29T12:14:20 IST" name="setup" finished-at="2025-04-29T12:14:28 IST" duration-ms="8531" status="PASS">
+    <test started-at="2025-05-18T14:16:43 IST" name="Master" finished-at="2025-05-18T14:18:30 IST" duration-ms="106969">
+      <class name="com.parabank.tests.TC007_VerifySuccessfulLogoutTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC007_VerifySuccessfulLogoutTest@784c3487]" started-at="2025-05-18T14:18:03 IST" name="setup" finished-at="2025-05-18T14:18:09 IST" duration-ms="6315" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,97 +39,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_successful_logout()[pri:0, instance:testCases.TC_007_Verify_successful_logout@616fe72b]" started-at="2025-04-29T12:14:28 IST" name="Verify_successful_logout" finished-at="2025-04-29T12:15:35 IST" duration-ms="66544" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: AjaxElementLocator 'By.xpath: //a[normalize-space()='Log Out']' (tried for 10 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: AjaxElementLocator 'By.xpath: //a[normalize-space()='Log Out']' (tried for 10 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at testCases.TC_007_Verify_successful_logout.Verify_successful_logout(TC_007_Verify_successful_logout.java:40)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element
-at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:90)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy27.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-... 31 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Log Out']"}
-  (Session info: chrome=135.0.7049.114)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.23.1', revision: '656257d8e9'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f8b6d9191458e70e730a5560ab463d4c, findElement {value=//a[normalize-space()='Log Out'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.114, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\omsai\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61827}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61827/devtoo..., se:cdpVersion: 135.0.7049.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f8b6d9191458e70e730a5560ab463d4c
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:38)
-at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:156)
-at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:79)
-at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:86)
-... 37 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="Verify_successful_logout()[pri:0, instance:com.parabank.tests.TC007_VerifySuccessfulLogoutTest@784c3487]" started-at="2025-05-18T14:18:09 IST" name="Verify_successful_logout" finished-at="2025-05-18T14:18:12 IST" duration-ms="3359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_successful_logout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_007_Verify_successful_logout@616fe72b]" started-at="2025-04-29T12:15:35 IST" name="tearDown" finished-at="2025-04-29T12:15:37 IST" duration-ms="2043" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC007_VerifySuccessfulLogoutTest@784c3487]" started-at="2025-05-18T14:18:12 IST" name="tearDown" finished-at="2025-05-18T14:18:13 IST" duration-ms="816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_007_Verify_successful_logout -->
-      <class name="testCases.TC_006_Verify_account_balance_display_after_login">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_Verify_account_balance_display_after_login@3d97a632]" started-at="2025-04-29T12:13:01 IST" name="setup" finished-at="2025-04-29T12:13:14 IST" duration-ms="12805" status="PASS">
+      </class> <!-- com.parabank.tests.TC007_VerifySuccessfulLogoutTest -->
+      <class name="com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest@56e8b606]" started-at="2025-05-18T14:17:45 IST" name="setup" finished-at="2025-05-18T14:17:51 IST" duration-ms="5931" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,123 +65,17 @@ at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxEl
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_account_balance_display_after_login()[pri:0, instance:testCases.TC_006_Verify_account_balance_display_after_login@3d97a632]" started-at="2025-04-29T12:13:14 IST" name="Verify_account_balance_display_after_login" finished-at="2025-04-29T12:14:17 IST" duration-ms="63247" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: AjaxElementLocator 'By.xpath: //*[@id="accountTable"]/tbody/tr[2]/td[2]' (tried for 10 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: AjaxElementLocator 'By.xpath: //*[@id="accountTable"]/tbody/tr[2]/td[2]' (tried for 10 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at testCases.TC_006_Verify_account_balance_display_after_login.Verify_account_balance_display_after_login(TC_006_Verify_account_balance_display_after_login.java:41)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element
-at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:90)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy27.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-... 31 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="accountTable"]/tbody/tr[2]/td[2]"}
-  (Session info: chrome=135.0.7049.114)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.23.1', revision: '656257d8e9'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [af7b1af5813a3a74c9a327c2fe790019, findElement {value=//*[@id="accountTable"]/tbody/tr[2]/td[2], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.114, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\omsai\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59913}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59913/devtoo..., se:cdpVersion: 135.0.7049.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: af7b1af5813a3a74c9a327c2fe790019
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:38)
-at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:156)
-at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:79)
-at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:86)
-... 37 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_account_balance_display_after_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_006_Verify_account_balance_display_after_login@3d97a632]" started-at="2025-04-29T12:14:17 IST" name="tearDown" finished-at="2025-04-29T12:14:20 IST" duration-ms="2253" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_006_Verify_account_balance_display_after_login -->
-      <class name="testCases.TC_005_Verify_login_failure_with_incorrect_password">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_Verify_login_failure_with_incorrect_password@77a7cf58]" started-at="2025-04-29T12:12:42 IST" name="setup" finished-at="2025-04-29T12:12:57 IST" duration-ms="14736" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_login_failure_with_incorrect_password()[pri:0, instance:testCases.TC_005_Verify_login_failure_with_incorrect_password@77a7cf58]" started-at="2025-04-29T12:12:57 IST" name="Verify_login_failure_with_incorrect_password" finished-at="2025-04-29T12:12:59 IST" duration-ms="2218" status="PASS">
+        <test-method signature="Verify_login_failure_with_incorrect_password()[pri:0, instance:com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest@56e8b606]" started-at="2025-05-18T14:17:51 IST" name="Verify_login_failure_with_incorrect_password" finished-at="2025-05-18T14:17:52 IST" duration-ms="1446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_login_failure_with_incorrect_password -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_005_Verify_login_failure_with_incorrect_password@77a7cf58]" started-at="2025-04-29T12:12:59 IST" name="tearDown" finished-at="2025-04-29T12:13:01 IST" duration-ms="2029" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest@56e8b606]" started-at="2025-05-18T14:17:52 IST" name="tearDown" finished-at="2025-05-18T14:17:53 IST" duration-ms="999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_005_Verify_login_failure_with_incorrect_password -->
-      <class name="testCases.TC_003_User_login_with_valid_credentials">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_User_login_with_valid_credentials@4d722ac9]" started-at="2025-04-29T12:09:19 IST" name="setup" finished-at="2025-04-29T12:09:31 IST" duration-ms="12336" status="PASS">
+      </class> <!-- com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest -->
+      <class name="com.parabank.tests.TC001_VerifyLogoTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC001_VerifyLogoTest@7e7b159b]" started-at="2025-05-18T14:16:44 IST" name="setup" finished-at="2025-05-18T14:17:11 IST" duration-ms="27783" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -277,69 +91,17 @@ at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxEl
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="User_login_with_valid_credentials()[pri:0, instance:testCases.TC_003_User_login_with_valid_credentials@4d722ac9]" started-at="2025-04-29T12:09:31 IST" name="User_login_with_valid_credentials" finished-at="2025-04-29T12:09:34 IST" duration-ms="3275" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- User_login_with_valid_credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_User_login_with_valid_credentials@4d722ac9]" started-at="2025-04-29T12:09:34 IST" name="tearDown" finished-at="2025-04-29T12:09:36 IST" duration-ms="1322" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_003_User_login_with_valid_credentials -->
-      <class name="testCases.TC_002_Registration_of_new_user">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_Registration_of_new_user@7a560583]" started-at="2025-04-29T12:08:56 IST" name="setup" finished-at="2025-04-29T12:09:08 IST" duration-ms="12205" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Registration_of_new_user()[pri:0, instance:testCases.TC_002_Registration_of_new_user@7a560583]" started-at="2025-04-29T12:09:08 IST" name="Registration_of_new_user" finished-at="2025-04-29T12:09:17 IST" duration-ms="9298" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Registration_of_new_user -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_Registration_of_new_user@7a560583]" started-at="2025-04-29T12:09:18 IST" name="tearDown" finished-at="2025-04-29T12:09:19 IST" duration-ms="1344" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_002_Registration_of_new_user -->
-      <class name="testCases.TC_001_Verify_Logo">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_Verify_Logo@424ebba3]" started-at="2025-04-29T12:08:28 IST" name="setup" finished-at="2025-04-29T12:08:53 IST" duration-ms="25404" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Logo()[pri:0, instance:testCases.TC_001_Verify_Logo@424ebba3]" started-at="2025-04-29T12:08:53 IST" name="Verify_Logo" finished-at="2025-04-29T12:08:54 IST" duration-ms="646" status="PASS">
+        <test-method signature="Verify_Logo()[pri:0, instance:com.parabank.tests.TC001_VerifyLogoTest@7e7b159b]" started-at="2025-05-18T14:17:11 IST" name="Verify_Logo" finished-at="2025-05-18T14:17:12 IST" duration-ms="921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Logo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_Verify_Logo@424ebba3]" started-at="2025-04-29T12:08:54 IST" name="tearDown" finished-at="2025-04-29T12:08:56 IST" duration-ms="2301" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC001_VerifyLogoTest@7e7b159b]" started-at="2025-05-18T14:17:12 IST" name="tearDown" finished-at="2025-05-18T14:17:13 IST" duration-ms="935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_001_Verify_Logo -->
-      <class name="testCases.TC_004_Verify_login_failure_with_empty_username">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_Verify_login_failure_with_empty_username@53f0a4cb]" started-at="2025-04-29T12:09:36 IST" name="setup" finished-at="2025-04-29T12:12:42 IST" duration-ms="186084" status="FAIL">
+      </class> <!-- com.parabank.tests.TC001_VerifyLogoTest -->
+      <class name="com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest@1dd6d4b7]" started-at="2025-05-18T14:17:37 IST" name="setup" finished-at="2025-05-18T14:17:43 IST" duration-ms="6303" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -352,150 +114,148 @@ at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxEl
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.23.1', revision: '656257d8e9'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [db4d955dacd5b7ae23572aa909a861b7, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.114, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\omsai\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50524}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50524/devtoo..., se:cdpVersion: 135.0.7049.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: db4d955dacd5b7ae23572aa909a861b7]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.23.1', revision: '656257d8e9'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [db4d955dacd5b7ae23572aa909a861b7, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.114, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\omsai\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50524}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50524/devtoo..., se:cdpVersion: 135.0.7049.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: db4d955dacd5b7ae23572aa909a861b7
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:418)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
-at testCases.BaseClass.setup(BaseClass.java:110)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:401)
-... 39 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_login_failure_with_empty_username()[pri:0, instance:testCases.TC_004_Verify_login_failure_with_empty_username@53f0a4cb]" started-at="2025-04-29T12:12:42 IST" name="Verify_login_failure_with_empty_username" finished-at="2025-04-29T12:12:42 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.23.1', revision: '656257d8e9'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [db4d955dacd5b7ae23572aa909a861b7, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.114, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\omsai\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50524}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50524/devtoo..., se:cdpVersion: 135.0.7049.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: db4d955dacd5b7ae23572aa909a861b7]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.23.1', revision: '656257d8e9'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [db4d955dacd5b7ae23572aa909a861b7, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.114, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\omsai\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50524}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50524/devtoo..., se:cdpVersion: 135.0.7049.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: db4d955dacd5b7ae23572aa909a861b7
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:418)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
-at testCases.BaseClass.setup(BaseClass.java:110)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:401)
-... 39 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="Verify_login_failure_with_empty_username()[pri:0, instance:com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest@1dd6d4b7]" started-at="2025-05-18T14:17:43 IST" name="Verify_login_failure_with_empty_username" finished-at="2025-05-18T14:17:44 IST" duration-ms="1137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_login_failure_with_empty_username -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004_Verify_login_failure_with_empty_username@53f0a4cb]" started-at="2025-04-29T12:12:42 IST" name="tearDown" finished-at="2025-04-29T12:12:42 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest@1dd6d4b7]" started-at="2025-05-18T14:17:44 IST" name="tearDown" finished-at="2025-05-18T14:17:45 IST" duration-ms="864" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_004_Verify_login_failure_with_empty_username -->
+      </class> <!-- com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest -->
+      <class name="com.parabank.tests.TC002_RegistrationOfNewUserTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC002_RegistrationOfNewUserTest@293a5f75]" started-at="2025-05-18T14:17:13 IST" name="setup" finished-at="2025-05-18T14:17:21 IST" duration-ms="8045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Registration_of_new_user()[pri:0, instance:com.parabank.tests.TC002_RegistrationOfNewUserTest@293a5f75]" started-at="2025-05-18T14:17:21 IST" name="Registration_of_new_user" finished-at="2025-05-18T14:17:26 IST" duration-ms="4209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_of_new_user -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC002_RegistrationOfNewUserTest@293a5f75]" started-at="2025-05-18T14:17:26 IST" name="tearDown" finished-at="2025-05-18T14:17:26 IST" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parabank.tests.TC002_RegistrationOfNewUserTest -->
+      <class name="com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest@40dff0b7]" started-at="2025-05-18T14:18:21 IST" name="setup" finished-at="2025-05-18T14:18:27 IST" duration-ms="6399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyCaseSensitivityInLoginTest()[pri:0, instance:com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest@40dff0b7]" started-at="2025-05-18T14:18:27 IST" name="VerifyCaseSensitivityInLoginTest" finished-at="2025-05-18T14:18:29 IST" duration-ms="1783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCaseSensitivityInLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest@40dff0b7]" started-at="2025-05-18T14:18:29 IST" name="tearDown" finished-at="2025-05-18T14:18:30 IST" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest -->
+      <class name="com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest@2dd29a59]" started-at="2025-05-18T14:17:53 IST" name="setup" finished-at="2025-05-18T14:18:00 IST" duration-ms="6570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_account_balance_display_after_login()[pri:0, instance:com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest@2dd29a59]" started-at="2025-05-18T14:18:00 IST" name="Verify_account_balance_display_after_login" finished-at="2025-05-18T14:18:02 IST" duration-ms="2093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_account_balance_display_after_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest@2dd29a59]" started-at="2025-05-18T14:18:02 IST" name="tearDown" finished-at="2025-05-18T14:18:03 IST" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest -->
+      <class name="com.parabank.tests.TC003_UserLoginWithValidCredentialsTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC003_UserLoginWithValidCredentialsTest@fcb4004]" started-at="2025-05-18T14:17:26 IST" name="setup" finished-at="2025-05-18T14:17:33 IST" duration-ms="6864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="User_login_with_valid_credentials()[pri:0, instance:com.parabank.tests.TC003_UserLoginWithValidCredentialsTest@fcb4004]" started-at="2025-05-18T14:17:33 IST" name="User_login_with_valid_credentials" finished-at="2025-05-18T14:17:36 IST" duration-ms="2423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_login_with_valid_credentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC003_UserLoginWithValidCredentialsTest@fcb4004]" started-at="2025-05-18T14:17:36 IST" name="tearDown" finished-at="2025-05-18T14:17:37 IST" duration-ms="911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parabank.tests.TC003_UserLoginWithValidCredentialsTest -->
+      <class name="com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest@53142455]" started-at="2025-05-18T14:18:13 IST" name="setup" finished-at="2025-05-18T14:18:19 IST" duration-ms="5654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithBlankFieldsTest()[pri:0, instance:com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest@53142455]" started-at="2025-05-18T14:18:19 IST" name="VerifyLoginWithBlankFieldsTest" finished-at="2025-05-18T14:18:20 IST" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithBlankFieldsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest@53142455]" started-at="2025-05-18T14:18:20 IST" name="tearDown" finished-at="2025-05-18T14:18:21 IST" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest -->
     </test> <!-- Master -->
   </suite> <!-- Master -->
 </testng-results>

@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="8" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-05T19:20:14 IST" name="Master" finished-at="2025-05-05T19:22:29 IST" duration-ms="134761">
+  <suite started-at="2025-05-18T13:43:09 IST" name="Master" finished-at="2025-05-18T13:48:04 IST" duration-ms="295102">
     <groups>
       <group name="regression">
-        <method signature="TC002_RegistrationOfNewUserTest.Registration_of_new_user()[pri:0, instance:com.parabank.tests.TC002_RegistrationOfNewUserTest@3a93b025]" name="Registration_of_new_user" class="com.parabank.tests.TC002_RegistrationOfNewUserTest"/>
+        <method signature="TC002_RegistrationOfNewUserTest.Registration_of_new_user()[pri:0, instance:com.parabank.tests.TC002_RegistrationOfNewUserTest@8f4ea7c]" name="Registration_of_new_user" class="com.parabank.tests.TC002_RegistrationOfNewUserTest"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TC001_VerifyLogoTest.Verify_Logo()[pri:0, instance:com.parabank.tests.TC001_VerifyLogoTest@16293aa2]" name="Verify_Logo" class="com.parabank.tests.TC001_VerifyLogoTest"/>
-        <method signature="TC003_UserLoginWithValidCredentialsTest.User_login_with_valid_credentials()[pri:0, instance:com.parabank.tests.TC003_UserLoginWithValidCredentialsTest@35cabb2a]" name="User_login_with_valid_credentials" class="com.parabank.tests.TC003_UserLoginWithValidCredentialsTest"/>
+        <method signature="TC001_VerifyLogoTest.Verify_Logo()[pri:0, instance:com.parabank.tests.TC001_VerifyLogoTest@7e07db1f]" name="Verify_Logo" class="com.parabank.tests.TC001_VerifyLogoTest"/>
+        <method signature="TC003_UserLoginWithValidCredentialsTest.User_login_with_valid_credentials()[pri:0, instance:com.parabank.tests.TC003_UserLoginWithValidCredentialsTest@436813f3]" name="User_login_with_valid_credentials" class="com.parabank.tests.TC003_UserLoginWithValidCredentialsTest"/>
       </group> <!-- sanity -->
       <group name="master">
-        <method signature="TC001_VerifyLogoTest.Verify_Logo()[pri:0, instance:com.parabank.tests.TC001_VerifyLogoTest@16293aa2]" name="Verify_Logo" class="com.parabank.tests.TC001_VerifyLogoTest"/>
-        <method signature="TC002_RegistrationOfNewUserTest.Registration_of_new_user()[pri:0, instance:com.parabank.tests.TC002_RegistrationOfNewUserTest@3a93b025]" name="Registration_of_new_user" class="com.parabank.tests.TC002_RegistrationOfNewUserTest"/>
-        <method signature="TC003_UserLoginWithValidCredentialsTest.User_login_with_valid_credentials()[pri:0, instance:com.parabank.tests.TC003_UserLoginWithValidCredentialsTest@35cabb2a]" name="User_login_with_valid_credentials" class="com.parabank.tests.TC003_UserLoginWithValidCredentialsTest"/>
-        <method signature="TC004_VerifyLoginFailureWithEmptyUsernameTest.Verify_login_failure_with_empty_username()[pri:0, instance:com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest@7e07db1f]" name="Verify_login_failure_with_empty_username" class="com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest"/>
-        <method signature="TC005_VerifyLoginFailureWithIncorrectPasswordTest.Verify_login_failure_with_incorrect_password()[pri:0, instance:com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest@1189dd52]" name="Verify_login_failure_with_incorrect_password" class="com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest"/>
-        <method signature="TC006_VerifyAccountBalanceDisplayAfterLoginTest.Verify_account_balance_display_after_login()[pri:0, instance:com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest@36bc55de]" name="Verify_account_balance_display_after_login" class="com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest"/>
-        <method signature="TC007_VerifySuccessfulLogoutTest.Verify_successful_logout()[pri:0, instance:com.parabank.tests.TC007_VerifySuccessfulLogoutTest@564fabc8]" name="Verify_successful_logout" class="com.parabank.tests.TC007_VerifySuccessfulLogoutTest"/>
+        <method signature="TC001_VerifyLogoTest.Verify_Logo()[pri:0, instance:com.parabank.tests.TC001_VerifyLogoTest@7e07db1f]" name="Verify_Logo" class="com.parabank.tests.TC001_VerifyLogoTest"/>
+        <method signature="TC002_RegistrationOfNewUserTest.Registration_of_new_user()[pri:0, instance:com.parabank.tests.TC002_RegistrationOfNewUserTest@8f4ea7c]" name="Registration_of_new_user" class="com.parabank.tests.TC002_RegistrationOfNewUserTest"/>
+        <method signature="TC003_UserLoginWithValidCredentialsTest.User_login_with_valid_credentials()[pri:0, instance:com.parabank.tests.TC003_UserLoginWithValidCredentialsTest@436813f3]" name="User_login_with_valid_credentials" class="com.parabank.tests.TC003_UserLoginWithValidCredentialsTest"/>
+        <method signature="TC004_VerifyLoginFailureWithEmptyUsernameTest.Verify_login_failure_with_empty_username()[pri:0, instance:com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest@74fe5c40]" name="Verify_login_failure_with_empty_username" class="com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest"/>
+        <method signature="TC005_VerifyLoginFailureWithIncorrectPasswordTest.Verify_login_failure_with_incorrect_password()[pri:0, instance:com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest@3febb011]" name="Verify_login_failure_with_incorrect_password" class="com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest"/>
+        <method signature="TC006_VerifyAccountBalanceDisplayAfterLoginTest.Verify_account_balance_display_after_login()[pri:0, instance:com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest@10e31a9a]" name="Verify_account_balance_display_after_login" class="com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest"/>
+        <method signature="TC007_VerifySuccessfulLogoutTest.Verify_successful_logout()[pri:0, instance:com.parabank.tests.TC007_VerifySuccessfulLogoutTest@131774fe]" name="Verify_successful_logout" class="com.parabank.tests.TC007_VerifySuccessfulLogoutTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2025-05-05T19:20:14 IST" name="Master" finished-at="2025-05-05T19:22:29 IST" duration-ms="134761">
+    <test started-at="2025-05-18T13:43:09 IST" name="Master" finished-at="2025-05-18T13:48:04 IST" duration-ms="295102">
       <class name="com.parabank.tests.TC007_VerifySuccessfulLogoutTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC007_VerifySuccessfulLogoutTest@564fabc8]" started-at="2025-05-05T19:22:15 IST" name="setup" finished-at="2025-05-05T19:22:24 IST" duration-ms="9019" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC007_VerifySuccessfulLogoutTest@131774fe]" started-at="2025-05-18T13:44:29 IST" name="setup" finished-at="2025-05-18T13:44:39 IST" duration-ms="10031" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,17 +39,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_successful_logout()[pri:0, instance:com.parabank.tests.TC007_VerifySuccessfulLogoutTest@564fabc8]" started-at="2025-05-05T19:22:24 IST" name="Verify_successful_logout" finished-at="2025-05-05T19:22:28 IST" duration-ms="3194" status="PASS">
+        <test-method signature="Verify_successful_logout()[pri:0, instance:com.parabank.tests.TC007_VerifySuccessfulLogoutTest@131774fe]" started-at="2025-05-18T13:44:39 IST" name="Verify_successful_logout" finished-at="2025-05-18T13:44:43 IST" duration-ms="4218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_successful_logout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC007_VerifySuccessfulLogoutTest@564fabc8]" started-at="2025-05-05T19:22:28 IST" name="tearDown" finished-at="2025-05-05T19:22:29 IST" duration-ms="1217" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC007_VerifySuccessfulLogoutTest@131774fe]" started-at="2025-05-18T13:44:43 IST" name="tearDown" finished-at="2025-05-18T13:44:44 IST" duration-ms="1211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parabank.tests.TC007_VerifySuccessfulLogoutTest -->
       <class name="com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest@1189dd52]" started-at="2025-05-05T19:21:39 IST" name="setup" finished-at="2025-05-05T19:21:50 IST" duration-ms="11463" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest@3febb011]" started-at="2025-05-18T13:43:56 IST" name="setup" finished-at="2025-05-18T13:44:07 IST" duration-ms="11407" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,17 +65,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_login_failure_with_incorrect_password()[pri:0, instance:com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest@1189dd52]" started-at="2025-05-05T19:21:50 IST" name="Verify_login_failure_with_incorrect_password" finished-at="2025-05-05T19:21:53 IST" duration-ms="3222" status="PASS">
+        <test-method signature="Verify_login_failure_with_incorrect_password()[pri:0, instance:com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest@3febb011]" started-at="2025-05-18T13:44:07 IST" name="Verify_login_failure_with_incorrect_password" finished-at="2025-05-18T13:44:09 IST" duration-ms="2242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_login_failure_with_incorrect_password -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest@1189dd52]" started-at="2025-05-05T19:21:53 IST" name="tearDown" finished-at="2025-05-05T19:21:55 IST" duration-ms="1193" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest@3febb011]" started-at="2025-05-18T13:44:09 IST" name="tearDown" finished-at="2025-05-18T13:44:11 IST" duration-ms="1274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest -->
       <class name="com.parabank.tests.TC001_VerifyLogoTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC001_VerifyLogoTest@16293aa2]" started-at="2025-05-05T19:20:16 IST" name="setup" finished-at="2025-05-05T19:20:38 IST" duration-ms="21990" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC001_VerifyLogoTest@7e07db1f]" started-at="2025-05-18T13:43:10 IST" name="setup" finished-at="2025-05-18T13:43:22 IST" duration-ms="12467" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,43 +91,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Logo()[pri:0, instance:com.parabank.tests.TC001_VerifyLogoTest@16293aa2]" started-at="2025-05-05T19:20:38 IST" name="Verify_Logo" finished-at="2025-05-05T19:20:39 IST" duration-ms="888" status="PASS">
+        <test-method signature="Verify_Logo()[pri:0, instance:com.parabank.tests.TC001_VerifyLogoTest@7e07db1f]" started-at="2025-05-18T13:43:22 IST" name="Verify_Logo" finished-at="2025-05-18T13:43:23 IST" duration-ms="403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Logo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC001_VerifyLogoTest@16293aa2]" started-at="2025-05-05T19:20:39 IST" name="tearDown" finished-at="2025-05-05T19:20:41 IST" duration-ms="1869" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC001_VerifyLogoTest@7e07db1f]" started-at="2025-05-18T13:43:23 IST" name="tearDown" finished-at="2025-05-18T13:43:24 IST" duration-ms="1039" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parabank.tests.TC001_VerifyLogoTest -->
-      <class name="com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest@7e07db1f]" started-at="2025-05-05T19:21:24 IST" name="setup" finished-at="2025-05-05T19:21:35 IST" duration-ms="10704" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_login_failure_with_empty_username()[pri:0, instance:com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest@7e07db1f]" started-at="2025-05-05T19:21:35 IST" name="Verify_login_failure_with_empty_username" finished-at="2025-05-05T19:21:37 IST" duration-ms="2186" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_login_failure_with_empty_username -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest@7e07db1f]" started-at="2025-05-05T19:21:37 IST" name="tearDown" finished-at="2025-05-05T19:21:39 IST" duration-ms="1336" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest -->
       <class name="com.parabank.tests.TC002_RegistrationOfNewUserTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC002_RegistrationOfNewUserTest@3a93b025]" started-at="2025-05-05T19:20:41 IST" name="setup" finished-at="2025-05-05T19:20:59 IST" duration-ms="18191" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC002_RegistrationOfNewUserTest@8f4ea7c]" started-at="2025-05-18T13:43:24 IST" name="setup" finished-at="2025-05-18T13:43:31 IST" duration-ms="7698" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,17 +117,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Registration_of_new_user()[pri:0, instance:com.parabank.tests.TC002_RegistrationOfNewUserTest@3a93b025]" started-at="2025-05-05T19:20:59 IST" name="Registration_of_new_user" finished-at="2025-05-05T19:21:07 IST" duration-ms="8284" status="PASS">
+        <test-method signature="Registration_of_new_user()[pri:0, instance:com.parabank.tests.TC002_RegistrationOfNewUserTest@8f4ea7c]" started-at="2025-05-18T13:43:31 IST" name="Registration_of_new_user" finished-at="2025-05-18T13:43:36 IST" duration-ms="4284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Registration_of_new_user -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC002_RegistrationOfNewUserTest@3a93b025]" started-at="2025-05-05T19:21:07 IST" name="tearDown" finished-at="2025-05-05T19:21:09 IST" duration-ms="1707" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC002_RegistrationOfNewUserTest@8f4ea7c]" started-at="2025-05-18T13:43:36 IST" name="tearDown" finished-at="2025-05-18T13:43:37 IST" duration-ms="989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parabank.tests.TC002_RegistrationOfNewUserTest -->
-      <class name="com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest@36bc55de]" started-at="2025-05-05T19:21:55 IST" name="setup" finished-at="2025-05-05T19:22:08 IST" duration-ms="13677" status="PASS">
+      <class name="com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest@74fe5c40]" started-at="2025-05-18T13:43:47 IST" name="setup" finished-at="2025-05-18T13:43:54 IST" duration-ms="6763" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -169,17 +143,193 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_account_balance_display_after_login()[pri:0, instance:com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest@36bc55de]" started-at="2025-05-05T19:22:08 IST" name="Verify_account_balance_display_after_login" finished-at="2025-05-05T19:22:14 IST" duration-ms="5882" status="PASS">
+        <test-method signature="Verify_login_failure_with_empty_username()[pri:0, instance:com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest@74fe5c40]" started-at="2025-05-18T13:43:54 IST" name="Verify_login_failure_with_empty_username" finished-at="2025-05-18T13:43:55 IST" duration-ms="1171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_login_failure_with_empty_username -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest@74fe5c40]" started-at="2025-05-18T13:43:55 IST" name="tearDown" finished-at="2025-05-18T13:43:56 IST" duration-ms="1014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest -->
+      <class name="com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest@77847718]" started-at="2025-05-18T13:44:59 IST" name="setup" finished-at="2025-05-18T13:48:04 IST" duration-ms="184806" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [11846a956cbcd1aca839e84b2fb246aa, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.94, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\omsai\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53167/devtoo..., se:cdpVersion: 136.0.7103.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 11846a956cbcd1aca839e84b2fb246aa]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [11846a956cbcd1aca839e84b2fb246aa, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.94, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\omsai\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53167/devtoo..., se:cdpVersion: 136.0.7103.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 11846a956cbcd1aca839e84b2fb246aa
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:418)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+at com.parabank.tests.BaseClass.setup(BaseClass.java:114)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:401)
+... 35 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyCaseSensitivityInLoginTest()[pri:0, instance:com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest@77847718]" started-at="2025-05-18T13:48:04 IST" name="VerifyCaseSensitivityInLoginTest" finished-at="2025-05-18T13:48:04 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [11846a956cbcd1aca839e84b2fb246aa, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.94, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\omsai\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53167/devtoo..., se:cdpVersion: 136.0.7103.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 11846a956cbcd1aca839e84b2fb246aa]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [11846a956cbcd1aca839e84b2fb246aa, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.94, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\omsai\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53167/devtoo..., se:cdpVersion: 136.0.7103.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 11846a956cbcd1aca839e84b2fb246aa
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:418)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+at com.parabank.tests.BaseClass.setup(BaseClass.java:114)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:401)
+... 35 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCaseSensitivityInLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest@77847718]" started-at="2025-05-18T13:48:04 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1747556284436" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest -->
+      <class name="com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest@10e31a9a]" started-at="2025-05-18T13:44:11 IST" name="setup" finished-at="2025-05-18T13:44:21 IST" duration-ms="10493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_account_balance_display_after_login()[pri:0, instance:com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest@10e31a9a]" started-at="2025-05-18T13:44:21 IST" name="Verify_account_balance_display_after_login" finished-at="2025-05-18T13:44:25 IST" duration-ms="3437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_account_balance_display_after_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest@36bc55de]" started-at="2025-05-05T19:22:14 IST" name="tearDown" finished-at="2025-05-05T19:22:15 IST" duration-ms="1268" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest@10e31a9a]" started-at="2025-05-18T13:44:25 IST" name="tearDown" finished-at="2025-05-18T13:44:29 IST" duration-ms="3903" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest -->
       <class name="com.parabank.tests.TC003_UserLoginWithValidCredentialsTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC003_UserLoginWithValidCredentialsTest@35cabb2a]" started-at="2025-05-05T19:21:09 IST" name="setup" finished-at="2025-05-05T19:21:21 IST" duration-ms="11600" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC003_UserLoginWithValidCredentialsTest@436813f3]" started-at="2025-05-18T13:43:37 IST" name="setup" finished-at="2025-05-18T13:43:43 IST" duration-ms="6742" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -195,15 +345,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="User_login_with_valid_credentials()[pri:0, instance:com.parabank.tests.TC003_UserLoginWithValidCredentialsTest@35cabb2a]" started-at="2025-05-05T19:21:21 IST" name="User_login_with_valid_credentials" finished-at="2025-05-05T19:21:23 IST" duration-ms="2643" status="PASS">
+        <test-method signature="User_login_with_valid_credentials()[pri:0, instance:com.parabank.tests.TC003_UserLoginWithValidCredentialsTest@436813f3]" started-at="2025-05-18T13:43:43 IST" name="User_login_with_valid_credentials" finished-at="2025-05-18T13:43:46 IST" duration-ms="2463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User_login_with_valid_credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC003_UserLoginWithValidCredentialsTest@35cabb2a]" started-at="2025-05-05T19:21:23 IST" name="tearDown" finished-at="2025-05-05T19:21:24 IST" duration-ms="1208" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC003_UserLoginWithValidCredentialsTest@436813f3]" started-at="2025-05-18T13:43:46 IST" name="tearDown" finished-at="2025-05-18T13:43:47 IST" duration-ms="1044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parabank.tests.TC003_UserLoginWithValidCredentialsTest -->
+      <class name="com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest@158d2680]" started-at="2025-05-18T13:44:44 IST" name="setup" finished-at="2025-05-18T13:44:56 IST" duration-ms="11594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithBlankFieldsTest()[pri:0, instance:com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest@158d2680]" started-at="2025-05-18T13:44:56 IST" name="VerifyLoginWithBlankFieldsTest" finished-at="2025-05-18T13:44:58 IST" duration-ms="2142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithBlankFieldsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest@158d2680]" started-at="2025-05-18T13:44:58 IST" name="tearDown" finished-at="2025-05-18T13:44:59 IST" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest -->
     </test> <!-- Master -->
   </suite> <!-- Master -->
 </testng-results>

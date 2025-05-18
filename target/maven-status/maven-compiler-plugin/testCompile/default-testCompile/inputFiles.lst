@@ -10,4 +10,6 @@ C:\Workspaces\30-10-2024 On words\Parabank_V1.2\src\test\java\com\parabank\tests
 C:\Workspaces\30-10-2024 On words\Parabank_V1.2\src\test\java\com\parabank\tests\TC005_VerifyLoginFailureWithIncorrectPasswordTest.java
 C:\Workspaces\30-10-2024 On words\Parabank_V1.2\src\test\java\com\parabank\tests\TC006_VerifyAccountBalanceDisplayAfterLoginTest.java
 C:\Workspaces\30-10-2024 On words\Parabank_V1.2\src\test\java\com\parabank\tests\TC007_VerifySuccessfulLogoutTest.java
+C:\Workspaces\30-10-2024 On words\Parabank_V1.2\src\test\java\com\parabank\tests\TC008_VerifyLoginWithBlankFieldsTest.java
+C:\Workspaces\30-10-2024 On words\Parabank_V1.2\src\test\java\com\parabank\tests\TC009_VerifyCaseSensitivityInLoginTest.java
 C:\Workspaces\30-10-2024 On words\Parabank_V1.2\src\test\java\com\parabank\utils\ExtentReportManager.java

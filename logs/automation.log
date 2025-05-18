@@ -143,3 +143,25 @@
 19:21:53.874 [main] INFO  com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest - The username and password could not be verified.
 19:22:14.584 [main] INFO  com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest - true
 19:22:28.126 [main] INFO  com.parabank.tests.TC007_VerifySuccessfulLogoutTest - Login button displayed: true
+13:07:22.663 [main] INFO  com.parabank.tests.TC001_VerifyLogoTest - Logo status is:: true
+13:08:01.101 [main] INFO  com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest - true
+13:08:12.232 [main] INFO  com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest - The username and password could not be verified.
+13:08:25.620 [main] INFO  com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest - true
+13:08:40.532 [main] INFO  com.parabank.tests.TC007_VerifySuccessfulLogoutTest - Login button displayed: true
+13:43:23.003 [main] INFO  com.parabank.tests.TC001_VerifyLogoTest - Logo status is:: true
+13:43:55.269 [main] INFO  com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest - true
+13:44:09.937 [main] INFO  com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest - The username and password could not be verified.
+13:44:25.111 [main] INFO  com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest - true
+13:44:43.315 [main] INFO  com.parabank.tests.TC007_VerifySuccessfulLogoutTest - Login button displayed: true
+13:53:26.450 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+13:53:40.281 [main] INFO  com.parabank.tests.TC001_VerifyLogoTest - Logo status is:: true
+13:54:14.113 [main] INFO  com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest - true
+13:54:23.531 [main] INFO  com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest - The username and password could not be verified.
+13:54:34.025 [main] INFO  com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest - true
+13:54:45.543 [main] INFO  com.parabank.tests.TC007_VerifySuccessfulLogoutTest - Login button displayed: true
+14:16:42.800 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+14:17:12.839 [main] INFO  com.parabank.tests.TC001_VerifyLogoTest - Logo status is:: true
+14:17:44.543 [main] INFO  com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest - true
+14:17:52.788 [main] INFO  com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest - The username and password could not be verified.
+14:18:02.404 [main] INFO  com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest - true
+14:18:12.975 [main] INFO  com.parabank.tests.TC007_VerifySuccessfulLogoutTest - Login button displayed: true
