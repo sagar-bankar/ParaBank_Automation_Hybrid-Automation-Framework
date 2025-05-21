@@ -1,0 +1,15 @@
+com\parabank\pages\LoginAccountPage.class
+com\parabank\tests\TC006_VerifyAccountBalanceDisplayAfterLoginTest.class
+com\parabank\pages\HomePage.class
+com\parabank\utils\ExtentReportManager.class
+com\parabank\tests\TC009_VerifyCaseSensitivityInLoginTest.class
+com\parabank\tests\TC005_VerifyLoginFailureWithIncorrectPasswordTest.class
+com\parabank\tests\TC007_VerifySuccessfulLogoutTest.class
+com\parabank\pages\RegisterPage.class
+com\parabank\tests\TC001_VerifyLogoTest.class
+com\parabank\tests\TC003_UserLoginWithValidCredentialsTest.class
+com\parabank\tests\TC008_VerifyLoginWithBlankFieldsTest.class
+com\parabank\pages\MyAccountPage.class
+com\parabank\tests\BaseClass.class
+com\parabank\tests\TC004_VerifyLoginFailureWithEmptyUsernameTest.class
+com\parabank\tests\TC002_RegistrationOfNewUserTest.class
