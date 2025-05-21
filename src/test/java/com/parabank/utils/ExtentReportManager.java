@@ -24,7 +24,7 @@ public class ExtentReportManager implements ITestListener {
 	public void onStart(ITestContext context) {
 		// This method is called before any test method is run
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date()); // Time stamp
-		String reportFileName = "Test-report-" + timeStamp + ".html"; // Report file name
+		String reportFileName = "ParaBank-Test-report-" + timeStamp + ".html"; // Report file name
 
 		// Initialize ExtentSparkReporter with the path where the report will be saved
 		ExtentSparkReporter htmlReporter = new ExtentSparkReporter(
