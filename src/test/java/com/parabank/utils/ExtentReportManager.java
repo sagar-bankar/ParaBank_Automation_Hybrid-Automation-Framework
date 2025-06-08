@@ -1,5 +1,6 @@
 package com.parabank.utils;
 
+import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -22,6 +23,19 @@ public class ExtentReportManager implements ITestListener {
 	private ExtentTest test;
 
 	public void onStart(ITestContext context) {
+		
+		// Clear old reports
+	    File reportDirFile = new File(System.getProperty("user.dir") + "/reports/");
+	    if (reportDirFile.exists()) {
+	        for (File file : reportDirFile.listFiles()) {
+	            if (file.isFile()) {
+	                file.delete();
+	            }
+	        }
+	    }
+		
+		
+		
 		// This method is called before any test method is run
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date()); // Time stamp
 		String reportFileName = "ParaBank-Test-report-" + timeStamp + ".html"; // Report file name
@@ -54,7 +68,12 @@ public class ExtentReportManager implements ITestListener {
 		extent.setSystemInfo("OS", "Windows");
 		extent.setSystemInfo("Browser", "Chrome");
 		extent.setSystemInfo("Java Version", "1.8/11");
-		extent.setSystemInfo("Build URL", "http://localhost:8080/job/ParaBank_Automation/23/");
+		
+		//get build real url 
+		String buildUrl = System.getProperty("build.url", "Not Available");
+		extent.setSystemInfo("Build URL", buildUrl);
+		
+		//extent.setSystemInfo("Build URL", "http://192.168.1.4:8080/job/Parabank_V1.1_Remote%20Repository/42/");
 		extent.setSystemInfo("Host Name", "Jenkins_Agent_01");
 		extent.setSystemInfo("Environment", "QA");
 		extent.setSystemInfo("Executed By", "SAGAR BANKAR");
