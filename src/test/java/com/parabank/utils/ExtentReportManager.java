@@ -27,8 +27,13 @@ public class ExtentReportManager implements ITestListener {
 		String reportFileName = "ParaBank-Test-report-" + timeStamp + ".html"; // Report file name
 
 		// Initialize ExtentSparkReporter with the path where the report will be saved
-		ExtentSparkReporter htmlReporter = new ExtentSparkReporter(
-				"C:\\Workspaces\\30-10-2024 On words\\Parabank_V1.2\\reports\\" + reportFileName);
+		//ExtentSparkReporter htmlReporter = new ExtentSparkReporter(
+		//		"C:\\Workspaces\\30-10-2024 On words\\Parabank_V1.2\\reports\\" + reportFileName);
+		
+		//for github jenkins build run
+		String reportDir = System.getProperty("user.dir") + "/reports/";
+		ExtentSparkReporter htmlReporter = new ExtentSparkReporter(reportDir + reportFileName);
+		
 		htmlReporter.config().setDocumentTitle("ParaBank V1.2 Test Report"); // Title of the report
 		htmlReporter.config().setReportName("Functional Test Report"); // Name of the report
 		

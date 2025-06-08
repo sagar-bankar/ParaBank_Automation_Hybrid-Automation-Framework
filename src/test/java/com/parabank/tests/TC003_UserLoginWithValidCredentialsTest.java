@@ -18,6 +18,9 @@ public class TC003_UserLoginWithValidCredentialsTest extends BaseClass {
 		waitForElementToBeVisible(homepage.getpassword());
 		homepage.sendpassword(p.getProperty("Password"));
 
+		logger.info("Login username-->: "+p.getProperty("Username") + getRandomString());
+		logger.info("Login password-->: "+p.getProperty("Password") );
+		
 		waitForElementToBeVisible(homepage.getlogIn());
 		homepage.clickOnlogIn();
 
