@@ -88,6 +88,7 @@ public class ExtentReportManager implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 		// This method is called when a test is successful
 		test.pass("Test Passed"); // Log a pass message in the report
+		
 	}
 
 	public void onTestFailure(ITestResult result) {
@@ -98,6 +99,7 @@ public class ExtentReportManager implements ITestListener {
 
 		String imgPath = new BaseClass().captureScreen(result.getName());
 		test.addScreenCaptureFromPath(imgPath);
+		
 
 	}
 
