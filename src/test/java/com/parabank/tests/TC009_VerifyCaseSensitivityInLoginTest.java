@@ -4,27 +4,42 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.parabank.pages.HomePage;
+import com.parabank.utils.ExtentReportManager;
 
 public class TC009_VerifyCaseSensitivityInLoginTest extends BaseClass {
 
-	@Test 
-	public void VerifyCaseSensitivityInLoginTest() {
-		HomePage homepage = new HomePage(driver);
+    @Test(groups = { "master" })
+    public void verifyCaseSensitivityInLogin() {
 
-		waitForElementToBeVisible(homepage.getusername());
-		homepage.sendusername((p.getProperty("Username") + randomString).toUpperCase()); // All---->sendinCapital
+        ExtentReportManager.getTest().info("Test Case: Verify Case Sensitivity in Login - Started");
 
-		waitForElementToBeVisible(homepage.getpassword());
-		homepage.sendpassword((p.getProperty("Password")).toUpperCase()); // Capital password
+        HomePage homePage = new HomePage(driver);
 
-		elementToBeClicable(homepage.getcustomerLogin());
-		homepage.clickOnlogIn();
+        waitForElementToBeVisible(homePage.getusername());
+        String upperUsername = (p.getProperty("Username") + randomString).toUpperCase();
+        homePage.sendusername(upperUsername);
+        ExtentReportManager.getTest().info("Entered Username in uppercase: " + upperUsername);
 
-		waitForElementToBeVisible(homepage.getpleaseEnterAUsernameAndPa());
+        waitForElementToBeVisible(homePage.getpassword());
+        String upperPassword = p.getProperty("Password").toUpperCase();
+        homePage.sendpassword(upperPassword);
+        ExtentReportManager.getTest().info("Entered Password in uppercase: " + upperPassword);
 
-		String expectederror = "The username and password could not be verified.";
-		String actualerror = homepage.getpleaseEnterAUsernameAndPa().getText();
-		Assert.assertEquals(actualerror, expectederror);
-	}
+        elementToBeClicable(homePage.getcustomerLogin());
+        homePage.clickOnlogIn();
+        ExtentReportManager.getTest().info("Clicked on Login button with uppercase credentials.");
 
+        waitForElementToBeVisible(homePage.getpleaseEnterAUsernameAndPa());
+
+        String expectedError = "The username and password could not be verified.";
+        String actualError = homePage.getpleaseEnterAUsernameAndPa().getText();
+
+        ExtentReportManager.getTest().info("Expected Error Message: " + expectedError);
+        ExtentReportManager.getTest().info("Actual Error Message: " + actualError);
+
+        Assert.assertEquals(actualError, expectedError,
+                "Test Case Failed: Case sensitivity in login not properly enforced. Actual message: " + actualError);
+
+        ExtentReportManager.getTest().info("Test Case: Verify Case Sensitivity in Login - Completed Successfully.");
+    }
 }

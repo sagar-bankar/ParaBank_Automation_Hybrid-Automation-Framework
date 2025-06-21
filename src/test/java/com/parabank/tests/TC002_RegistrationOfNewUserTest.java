@@ -6,67 +6,86 @@ import org.testng.annotations.Test;
 import com.parabank.pages.HomePage;
 import com.parabank.pages.LoginAccountPage;
 import com.parabank.pages.RegisterPage;
+import com.parabank.utils.ExtentReportManager;
 
 public class TC002_RegistrationOfNewUserTest extends BaseClass {
-	@Test(groups = { "regression", "master" })
-	public void Registration_of_new_user() {
-		HomePage homepage = new HomePage(driver);
-		waitForElementToBeVisible(homepage.getRegister());
-		homepage.clickOnRegister();
+    
+    @Test(groups = { "regression", "master" })
+    public void registrationOfNewUser() {
+        ExtentReportManager.getTest().info("Test Case: Registration of New User - Started");
 
-		// On Registration page
+        // Navigate to Register Page
+        HomePage homePage = new HomePage(driver);
+        waitForElementToBeVisible(homePage.getRegister());
+        ExtentReportManager.getTest().info("Register link is visible. Clicking on Register...");
+        homePage.clickOnRegister();
 
-		RegisterPage register = new RegisterPage(driver);
-		waitForElementToBeVisible(register.getFirstName());
-		register.sendFirstName(p.getProperty("First_Name"));
+        // Fill out the Registration Form
+        RegisterPage registerPage = new RegisterPage(driver);
 
-		waitForElementToBeVisible(register.getLastName());
-		register.sendLasttName(p.getProperty("Last_Name"));
+        waitForElementToBeVisible(registerPage.getFirstName());
+        registerPage.sendFirstName(p.getProperty("First_Name"));
+        ExtentReportManager.getTest().info("Entered First Name.");
 
-		waitForElementToBeVisible(register.getaddressstreet());
-		register.sendAddressstreet(p.getProperty("Address"));
+        waitForElementToBeVisible(registerPage.getLastName());
+        registerPage.sendLasttName(p.getProperty("Last_Name"));
+        ExtentReportManager.getTest().info("Entered Last Name.");
 
-		waitForElementToBeVisible(register.getaddresscity());
-		register.sendaddresscity(p.getProperty("city"));
+        waitForElementToBeVisible(registerPage.getaddressstreet());
+        registerPage.sendAddressstreet(p.getProperty("Address"));
+        ExtentReportManager.getTest().info("Entered Address.");
 
-		waitForElementToBeVisible(register.getaddressstate());
-		register.sendaddressstate(p.getProperty("state"));
+        waitForElementToBeVisible(registerPage.getaddresscity());
+        registerPage.sendaddresscity(p.getProperty("city"));
+        ExtentReportManager.getTest().info("Entered City.");
 
-		waitForElementToBeVisible(register.getaddresszipCode());
-		register.sendAddresszipCode(p.getProperty("zipcode"));
+        waitForElementToBeVisible(registerPage.getaddressstate());
+        registerPage.sendaddressstate(p.getProperty("state"));
+        ExtentReportManager.getTest().info("Entered State.");
 
-		waitForElementToBeVisible(register.getphoneNumber());
-		register.sendphoneNumber(p.getProperty("phone"));
+        waitForElementToBeVisible(registerPage.getaddresszipCode());
+        registerPage.sendAddresszipCode(p.getProperty("zipcode"));
+        ExtentReportManager.getTest().info("Entered Zip Code.");
 
-		waitForElementToBeVisible(register.getcustomerssn());
-		register.sendcustomerssn(p.getProperty("SSN"));
+        waitForElementToBeVisible(registerPage.getphoneNumber());
+        registerPage.sendphoneNumber(p.getProperty("phone"));
+        ExtentReportManager.getTest().info("Entered Phone Number.");
 
-		waitForElementToBeVisible(register.getUserName());
-		register.sendUserName(p.getProperty("Username") + getRandomString());
+        waitForElementToBeVisible(registerPage.getcustomerssn());
+        registerPage.sendcustomerssn(p.getProperty("SSN"));
+        ExtentReportManager.getTest().info("Entered SSN.");
 
-		waitForElementToBeVisible(register.getPasswordName());
-		register.sendPasswordName(p.getProperty("Password"));
+        String uniqueUsername = p.getProperty("Username") + getRandomString();
+        waitForElementToBeVisible(registerPage.getUserName());
+        registerPage.sendUserName(uniqueUsername);
+        ExtentReportManager.getTest().info("Entered Username: " + uniqueUsername);
 
-		waitForElementToBeVisible(register.getRepeatPasswordName());
-		register.sendRepeatPasswordName(p.getProperty("Password"));
+        waitForElementToBeVisible(registerPage.getPasswordName());
+        registerPage.sendPasswordName(p.getProperty("Password"));
+        ExtentReportManager.getTest().info("Entered Password.");
 
-		waitForElementToBeVisible(register.getRegister());
-		register.clickOnNewUserRegister();
+        waitForElementToBeVisible(registerPage.getRepeatPasswordName());
+        registerPage.sendRepeatPasswordName(p.getProperty("Password"));
+        ExtentReportManager.getTest().info("Repeated Password.");
 
-		// LoginAccountPage
-		LoginAccountPage loginaccountpage = new LoginAccountPage(driver);
-		waitForElementToBeVisible(loginaccountpage.getyourAccountWasCreatedSucce());
+        waitForElementToBeVisible(registerPage.getRegister());
+        registerPage.clickOnNewUserRegister();
+        ExtentReportManager.getTest().info("Clicked on Register button.");
 
-		// System.out.println(LA.isDisplayedyourAccountWasCreatedSucce());
-		String Expected = "Your account was created successfully. You are now logged in.";
-		String Actual = loginaccountpage.isDisplayedyourAccountWasCreatedSucce();
+        // Validate Account Creation Message
+        LoginAccountPage loginPage = new LoginAccountPage(driver);
+        waitForElementToBeVisible(loginPage.getyourAccountWasCreatedSucce());
 
-		Assert.assertEquals(Actual, Expected, "TC_002_Registration_of_new_user is Failed" + Actual);
+        String expectedMessage = "Your account was created successfully. You are now logged in.";
+        String actualMessage = loginPage.isDisplayedyourAccountWasCreatedSucce();
 
-		// Assert.assertTrue(LA.isDisplayedyourAccountWasCreatedSucce()==Expected,
-		// "TC_002_Registration_of_new_user is
-		// Failed"+LA.isDisplayedyourAccountWasCreatedSucce());
+        ExtentReportManager.getTest().info("Verifying success message after registration.");
+        ExtentReportManager.getTest().info("Expected: " + expectedMessage);
+        ExtentReportManager.getTest().info("Actual: " + actualMessage);
 
-	}
+        Assert.assertEquals(actualMessage, expectedMessage,
+                "Test Case Failed: Registration message mismatch. Actual: " + actualMessage);
 
+        ExtentReportManager.getTest().info("Test Case: Registration of New User - Completed Successfully.");
+    }
 }

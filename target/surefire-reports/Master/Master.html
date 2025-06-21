@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Master</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue May 27 10:59:49 IST 2025</td>
+<td>Started on:</td><td>Sat Jun 21 16:12:26 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>255 seconds (255552 ms)</td>
+<tr><td>Total time:</td><td>165 seconds (165591 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,116 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest.verifyCaseSensitivityInLogin()'><b>verifyCaseSensitivityInLogin</b><br>Test class: com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (6a17873e0f06723b4891af41a29125fe)] -&gt; xpath: //p[@class=&apos;error&apos;]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\omsai\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59974}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59974/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a17873e0f06723b4891af41a29125fe
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.parabank.tests.BaseClass.waitForElementToBeVisible(BaseClass.java:144)
+	at com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest.verifyCaseSensitivityInLogin(TC009_VerifyCaseSensitivityInLoginTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2117382439", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2117382439'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (6a17873e0f06723b4891af41a29125fe)] -&gt; xpath: //p[@class=&apos;error&apos;]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\omsai\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59974}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59974/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a17873e0f06723b4891af41a29125fe
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.parabank.tests.BaseClass.waitForElementToBeVisible(BaseClass.java:144)
+	at com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest.verifyCaseSensitivityInLogin(TC009_VerifyCaseSensitivityInLoginTest.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>13</td>
+<td>com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest@7966baa7</td></tr>
+<tr>
+<td title='com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest.verifyLoginFailureWithIncorrectPassword()'><b>verifyLoginFailureWithIncorrectPassword</b><br>Test class: com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest</td>
+<td><div><pre>java.lang.AssertionError: Test Case Failed: Incorrect login message mismatch. Actual:  expected [true] but found [false]
+	at com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest.verifyLoginFailureWithIncorrectPassword(TC005_VerifyLoginFailureWithIncorrectPasswordTest.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1829440934", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1829440934'><pre>java.lang.AssertionError: Test Case Failed: Incorrect login message mismatch. Actual:  expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest.verifyLoginFailureWithIncorrectPassword(TC005_VerifyLoginFailureWithIncorrectPasswordTest.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>2</td>
+<td>com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest@2dd29a59</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,50 +186,40 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest.Verify_login_failure_with_incorrect_password()'><b>Verify_login_failure_with_incorrect_password</b><br>Test class: com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest</td>
+<td title='com.parabank.tests.TC002_RegistrationOfNewUserTest.registrationOfNewUser()'><b>registrationOfNewUser</b><br>Test class: com.parabank.tests.TC002_RegistrationOfNewUserTest</td>
 <td></td>
-<td>2</td>
-<td>com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest@56e8b606</td></tr>
+<td>7</td>
+<td>com.parabank.tests.TC002_RegistrationOfNewUserTest@fcb4004</td></tr>
 <tr>
-<td title='com.parabank.tests.TC007_VerifySuccessfulLogoutTest.Verify_successful_logout()'><b>Verify_successful_logout</b><br>Test class: com.parabank.tests.TC007_VerifySuccessfulLogoutTest</td>
-<td></td>
-<td>4</td>
-<td>com.parabank.tests.TC007_VerifySuccessfulLogoutTest@784c3487</td></tr>
-<tr>
-<td title='com.parabank.tests.TC002_RegistrationOfNewUserTest.Registration_of_new_user()'><b>Registration_of_new_user</b><br>Test class: com.parabank.tests.TC002_RegistrationOfNewUserTest</td>
-<td></td>
-<td>16</td>
-<td>com.parabank.tests.TC002_RegistrationOfNewUserTest@293a5f75</td></tr>
-<tr>
-<td title='com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest.VerifyLoginWithBlankFieldsTest()'><b>VerifyLoginWithBlankFieldsTest</b><br>Test class: com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest</td>
-<td></td>
-<td>2</td>
-<td>com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest@53142455</td></tr>
-<tr>
-<td title='com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest.Verify_account_balance_display_after_login()'><b>Verify_account_balance_display_after_login</b><br>Test class: com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest</td>
-<td></td>
-<td>3</td>
-<td>com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest@2dd29a59</td></tr>
-<tr>
-<td title='com.parabank.tests.TC003_UserLoginWithValidCredentialsTest.User_login_with_valid_credentials()'><b>User_login_with_valid_credentials</b><br>Test class: com.parabank.tests.TC003_UserLoginWithValidCredentialsTest</td>
+<td title='com.parabank.tests.TC007_VerifySuccessfulLogoutTest.verifySuccessfulLogout()'><b>verifySuccessfulLogout</b><br>Test class: com.parabank.tests.TC007_VerifySuccessfulLogoutTest</td>
 <td></td>
 <td>4</td>
-<td>com.parabank.tests.TC003_UserLoginWithValidCredentialsTest@fcb4004</td></tr>
+<td>com.parabank.tests.TC007_VerifySuccessfulLogoutTest@53142455</td></tr>
 <tr>
-<td title='com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest.Verify_login_failure_with_empty_username()'><b>Verify_login_failure_with_empty_username</b><br>Test class: com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest</td>
+<td title='com.parabank.tests.TC001_VerifyLogoTest.verifyLogoIsDisplayed()'><b>verifyLogoIsDisplayed</b><br>Test class: com.parabank.tests.TC001_VerifyLogoTest</td>
 <td></td>
-<td>5</td>
-<td>com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest@1dd6d4b7</td></tr>
+<td>0</td>
+<td>com.parabank.tests.TC001_VerifyLogoTest@7e5d9a50</td></tr>
 <tr>
-<td title='com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest.VerifyCaseSensitivityInLoginTest()'><b>VerifyCaseSensitivityInLoginTest</b><br>Test class: com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest</td>
-<td></td>
-<td>2</td>
-<td>com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest@40dff0b7</td></tr>
-<tr>
-<td title='com.parabank.tests.TC001_VerifyLogoTest.Verify_Logo()'><b>Verify_Logo</b><br>Test class: com.parabank.tests.TC001_VerifyLogoTest</td>
+<td title='com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest.verifyLoginFailureWithEmptyUsername()'><b>verifyLoginFailureWithEmptyUsername</b><br>Test class: com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest</td>
 <td></td>
 <td>1</td>
-<td>com.parabank.tests.TC001_VerifyLogoTest@7e7b159b</td></tr>
+<td>com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest@56e8b606</td></tr>
+<tr>
+<td title='com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest.verifyAccountBalanceDisplayAfterLogin()'><b>verifyAccountBalanceDisplayAfterLogin</b><br>Test class: com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest</td>
+<td></td>
+<td>3</td>
+<td>com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest@784c3487</td></tr>
+<tr>
+<td title='com.parabank.tests.TC003_UserLoginWithValidCredentialsTest.userLoginWithValidCredentials()'><b>userLoginWithValidCredentials</b><br>Test class: com.parabank.tests.TC003_UserLoginWithValidCredentialsTest</td>
+<td></td>
+<td>2</td>
+<td>com.parabank.tests.TC003_UserLoginWithValidCredentialsTest@1dd6d4b7</td></tr>
+<tr>
+<td title='com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest.verifyLoginWithBlankFields()'><b>verifyLoginWithBlankFields</b><br>Test class: com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest</td>
+<td></td>
+<td>2</td>
+<td>com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest@40dff0b7</td></tr>
 </table><p>
 </body>
 </html>

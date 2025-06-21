@@ -21,6 +21,8 @@ public class ExtentReportManager implements ITestListener {
 
 	private ExtentReports extent;
 	private ExtentTest test;
+	
+	private static ThreadLocal<ExtentTest> extentTest=new ThreadLocal<>();
 
 	public void onStart(ITestContext context) {
 		
@@ -49,8 +51,8 @@ public class ExtentReportManager implements ITestListener {
 		ExtentSparkReporter htmlReporter = new ExtentSparkReporter(reportDir + reportFileName);
 		
 		htmlReporter.config().setDocumentTitle("ParaBank V1.2 Test Report"); // Title of the report
-		htmlReporter.config().setReportName("Functional Test Report"); // Name of the report
-		
+		//htmlReporter.config().setReportName("Functional Test Report"); // Name of the report
+		htmlReporter.config().setReportName("<img src='C:\\Workspaces\\30-10-2024 On words\\Parabank_V1.2\\src\\test\\resources\\logo.png' />");
 		
 		// htmlReporter.config().setTheme(Theme.STANDARD); // Theme of the report
 		htmlReporter.config().setTheme(Theme.DARK); // Theme of the report
@@ -83,6 +85,9 @@ public class ExtentReportManager implements ITestListener {
 	public void onTestStart(ITestResult result) {
 		// This method is called when a test starts
 		test = extent.createTest(result.getTestClass().getName()); // Create a new test in the report
+	
+		// Set in ThreadLocal for use in test
+		extentTest.set(test);
 	}
 
 	public void onTestSuccess(ITestResult result) {
@@ -117,5 +122,9 @@ public class ExtentReportManager implements ITestListener {
 		// This method is called for tests that fail but are within the success
 		// percentage defined in TestNG
 		// Not commonly used, so implementation can be skipped or customized as needed
+	}
+	
+	public static ExtentTest getTest() {
+		return extentTest.get();
 	}
 }

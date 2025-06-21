@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Master" class="navigator-link">
-              <span class="suite-name border-passed">Master</span>
+              <span class="suite-name border-failed">Master</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">9 methods, 2 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Master" class="hide-methods failed suite-Master"> (hide)</a> <!-- hide-methods failed suite-Master -->
+                      <a href="#" panel-name="suite-Master" class="show-methods failed suite-Master"> (show)</a> <!-- show-methods failed suite-Master -->
+                    </span>
+                    <div class="method-list-content failed suite-Master">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master" title="com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest" class="method navigator-link" hash-for-method="verifyCaseSensitivityInLogin">verifyCaseSensitivityInLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master" title="com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest" class="method navigator-link" hash-for-method="verifyLoginFailureWithIncorrectPassword">verifyLoginFailureWithIncorrectPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Master -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,47 +122,37 @@
                     <div class="method-list-content passed suite-Master">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master" title="com.parabank.tests.TC002_RegistrationOfNewUserTest" class="method navigator-link" hash-for-method="Registration_of_new_user">Registration_of_new_user</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master" title="com.parabank.tests.TC002_RegistrationOfNewUserTest" class="method navigator-link" hash-for-method="registrationOfNewUser">registrationOfNewUser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master" title="com.parabank.tests.TC003_UserLoginWithValidCredentialsTest" class="method navigator-link" hash-for-method="User_login_with_valid_credentials">User_login_with_valid_credentials</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master" title="com.parabank.tests.TC003_UserLoginWithValidCredentialsTest" class="method navigator-link" hash-for-method="userLoginWithValidCredentials">userLoginWithValidCredentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master" title="com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest" class="method navigator-link" hash-for-method="VerifyCaseSensitivityInLoginTest">VerifyCaseSensitivityInLoginTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master" title="com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest" class="method navigator-link" hash-for-method="verifyAccountBalanceDisplayAfterLogin">verifyAccountBalanceDisplayAfterLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master" title="com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest" class="method navigator-link" hash-for-method="VerifyLoginWithBlankFieldsTest">VerifyLoginWithBlankFieldsTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master" title="com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest" class="method navigator-link" hash-for-method="verifyLoginFailureWithEmptyUsername">verifyLoginFailureWithEmptyUsername</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master" title="com.parabank.tests.TC001_VerifyLogoTest" class="method navigator-link" hash-for-method="Verify_Logo">Verify_Logo</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master" title="com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest" class="method navigator-link" hash-for-method="verifyLoginWithBlankFields">verifyLoginWithBlankFields</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master" title="com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest" class="method navigator-link" hash-for-method="Verify_account_balance_display_after_login">Verify_account_balance_display_after_login</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master" title="com.parabank.tests.TC001_VerifyLogoTest" class="method navigator-link" hash-for-method="verifyLogoIsDisplayed">verifyLogoIsDisplayed</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master" title="com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest" class="method navigator-link" hash-for-method="Verify_login_failure_with_empty_username">Verify_login_failure_with_empty_username</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master" title="com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest" class="method navigator-link" hash-for-method="Verify_login_failure_with_incorrect_password">Verify_login_failure_with_incorrect_password</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master" title="com.parabank.tests.TC007_VerifySuccessfulLogoutTest" class="method navigator-link" hash-for-method="Verify_successful_logout">Verify_successful_logout</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master" title="com.parabank.tests.TC007_VerifySuccessfulLogoutTest" class="method navigator-link" hash-for-method="verifySuccessfulLogout">verifySuccessfulLogout</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Master -->
@@ -158,6 +167,54 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Master" class="panel Master">
+          <div class="suite-Master-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCaseSensitivityInLogin">
+                  </a> <!-- verifyCaseSensitivityInLogin -->
+                  <span class="method-name">verifyCaseSensitivityInLogin</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (6a17873e0f06723b4891af41a29125fe)] -&gt; xpath: //p[@class=&apos;error&apos;]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\omsai\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59974}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59974/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a17873e0f06723b4891af41a29125fe
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.parabank.tests.BaseClass.waitForElementToBeVisible(BaseClass.java:144)
+	at com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest.verifyCaseSensitivityInLogin(TC009_VerifyCaseSensitivityInLoginTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master-class-failed -->
+          <div class="suite-Master-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginFailureWithIncorrectPassword">
+                  </a> <!-- verifyLoginFailureWithIncorrectPassword -->
+                  <span class="method-name">verifyLoginFailureWithIncorrectPassword</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test Case Failed: Incorrect login message mismatch. Actual:  expected [true] but found [false]
+	at com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest.verifyLoginFailureWithIncorrectPassword(TC005_VerifyLoginFailureWithIncorrectPasswordTest.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master-class-failed -->
           <div class="suite-Master-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -166,54 +223,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Verify_Logo">
-                  </a> <!-- Verify_Logo -->
-                  <span class="method-name">Verify_Logo</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Master-class-passed -->
-          <div class="suite-Master-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.parabank.tests.TC007_VerifySuccessfulLogoutTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verify_successful_logout">
-                  </a> <!-- Verify_successful_logout -->
-                  <span class="method-name">Verify_successful_logout</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Master-class-passed -->
-          <div class="suite-Master-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyCaseSensitivityInLoginTest">
-                  </a> <!-- VerifyCaseSensitivityInLoginTest -->
-                  <span class="method-name">VerifyCaseSensitivityInLoginTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Master-class-passed -->
-          <div class="suite-Master-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.parabank.tests.TC003_UserLoginWithValidCredentialsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="User_login_with_valid_credentials">
-                  </a> <!-- User_login_with_valid_credentials -->
-                  <span class="method-name">User_login_with_valid_credentials</span>
+                  <a name="verifyLogoIsDisplayed">
+                  </a> <!-- verifyLogoIsDisplayed -->
+                  <span class="method-name">verifyLogoIsDisplayed</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -226,9 +238,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Verify_account_balance_display_after_login">
-                  </a> <!-- Verify_account_balance_display_after_login -->
-                  <span class="method-name">Verify_account_balance_display_after_login</span>
+                  <a name="verifyAccountBalanceDisplayAfterLogin">
+                  </a> <!-- verifyAccountBalanceDisplayAfterLogin -->
+                  <span class="method-name">verifyAccountBalanceDisplayAfterLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -241,24 +253,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifyLoginWithBlankFieldsTest">
-                  </a> <!-- VerifyLoginWithBlankFieldsTest -->
-                  <span class="method-name">VerifyLoginWithBlankFieldsTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Master-class-passed -->
-          <div class="suite-Master-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verify_login_failure_with_empty_username">
-                  </a> <!-- Verify_login_failure_with_empty_username -->
-                  <span class="method-name">Verify_login_failure_with_empty_username</span>
+                  <a name="verifyLoginWithBlankFields">
+                  </a> <!-- verifyLoginWithBlankFields -->
+                  <span class="method-name">verifyLoginWithBlankFields</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -271,9 +268,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Registration_of_new_user">
-                  </a> <!-- Registration_of_new_user -->
-                  <span class="method-name">Registration_of_new_user</span>
+                  <a name="registrationOfNewUser">
+                  </a> <!-- registrationOfNewUser -->
+                  <span class="method-name">registrationOfNewUser</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -281,14 +278,44 @@
           <div class="suite-Master-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest</span>
+              <span class="class-name">com.parabank.tests.TC007_VerifySuccessfulLogoutTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Verify_login_failure_with_incorrect_password">
-                  </a> <!-- Verify_login_failure_with_incorrect_password -->
-                  <span class="method-name">Verify_login_failure_with_incorrect_password</span>
+                  <a name="verifySuccessfulLogout">
+                  </a> <!-- verifySuccessfulLogout -->
+                  <span class="method-name">verifySuccessfulLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master-class-passed -->
+          <div class="suite-Master-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.parabank.tests.TC003_UserLoginWithValidCredentialsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userLoginWithValidCredentials">
+                  </a> <!-- userLoginWithValidCredentials -->
+                  <span class="method-name">userLoginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master-class-passed -->
+          <div class="suite-Master-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginFailureWithEmptyUsername">
+                  </a> <!-- verifyLoginFailureWithEmptyUsername -->
+                  <span class="method-name">verifyLoginFailureWithEmptyUsername</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -346,31 +373,39 @@
               <span class="test-group-name">master</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">Registration_of_new_user</span>
+                <span class="method-in-group-name">registrationOfNewUser</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">User_login_with_valid_credentials</span>
+                <span class="method-in-group-name">userLoginWithValidCredentials</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">Verify_Logo</span>
+                <span class="method-in-group-name">verifyAccountBalanceDisplayAfterLogin</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">Verify_account_balance_display_after_login</span>
+                <span class="method-in-group-name">verifyCaseSensitivityInLogin</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">Verify_login_failure_with_empty_username</span>
+                <span class="method-in-group-name">verifyLoginFailureWithEmptyUsername</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">Verify_login_failure_with_incorrect_password</span>
+                <span class="method-in-group-name">verifyLoginFailureWithIncorrectPassword</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">Verify_successful_logout</span>
+                <span class="method-in-group-name">verifyLoginWithBlankFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogoIsDisplayed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySuccessfulLogout</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -378,7 +413,7 @@
               <span class="test-group-name">regression</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">Registration_of_new_user</span>
+                <span class="method-in-group-name">registrationOfNewUser</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -386,11 +421,11 @@
               <span class="test-group-name">sanity</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">User_login_with_valid_credentials</span>
+                <span class="method-in-group-name">userLoginWithValidCredentials</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">Verify_Logo</span>
+                <span class="method-in-group-name">verifyLogoIsDisplayed</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -412,46 +447,46 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Registration_of_new_user')
-data.setCell(0, 2, 'com.parabank.tests.TC002_RegistrationOfNewUserTest')
-data.setCell(0, 3, 16324);
+data.setCell(0, 1, 'verifyCaseSensitivityInLogin')
+data.setCell(0, 2, 'com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest')
+data.setCell(0, 3, 13663);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Verify_login_failure_with_empty_username')
-data.setCell(1, 2, 'com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest')
-data.setCell(1, 3, 5397);
+data.setCell(1, 1, 'registrationOfNewUser')
+data.setCell(1, 2, 'com.parabank.tests.TC002_RegistrationOfNewUserTest')
+data.setCell(1, 3, 7398);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'User_login_with_valid_credentials')
-data.setCell(2, 2, 'com.parabank.tests.TC003_UserLoginWithValidCredentialsTest')
-data.setCell(2, 3, 4665);
+data.setCell(2, 1, 'verifySuccessfulLogout')
+data.setCell(2, 2, 'com.parabank.tests.TC007_VerifySuccessfulLogoutTest')
+data.setCell(2, 3, 4993);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Verify_successful_logout')
-data.setCell(3, 2, 'com.parabank.tests.TC007_VerifySuccessfulLogoutTest')
-data.setCell(3, 3, 4269);
+data.setCell(3, 1, 'verifyAccountBalanceDisplayAfterLogin')
+data.setCell(3, 2, 'com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest')
+data.setCell(3, 3, 3631);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Verify_account_balance_display_after_login')
-data.setCell(4, 2, 'com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest')
-data.setCell(4, 3, 3834);
+data.setCell(4, 1, 'userLoginWithValidCredentials')
+data.setCell(4, 2, 'com.parabank.tests.TC003_UserLoginWithValidCredentialsTest')
+data.setCell(4, 3, 2884);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Verify_login_failure_with_incorrect_password')
+data.setCell(5, 1, 'verifyLoginFailureWithIncorrectPassword')
 data.setCell(5, 2, 'com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest')
-data.setCell(5, 3, 2732);
+data.setCell(5, 3, 2807);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'VerifyCaseSensitivityInLoginTest')
-data.setCell(6, 2, 'com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest')
-data.setCell(6, 3, 2225);
+data.setCell(6, 1, 'verifyLoginWithBlankFields')
+data.setCell(6, 2, 'com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest')
+data.setCell(6, 3, 2327);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'VerifyLoginWithBlankFieldsTest')
-data.setCell(7, 2, 'com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest')
-data.setCell(7, 3, 2184);
+data.setCell(7, 1, 'verifyLoginFailureWithEmptyUsername')
+data.setCell(7, 2, 'com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest')
+data.setCell(7, 3, 1968);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'Verify_Logo')
+data.setCell(8, 1, 'verifyLogoIsDisplayed')
 data.setCell(8, 2, 'com.parabank.tests.TC001_VerifyLogoTest')
-data.setCell(8, 3, 1089);
+data.setCell(8, 3, 407);
 window.suiteTableData['Master']= { tableData: data, tableDiv: 'times-div-Master'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 42 seconds</span>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
               <div id="times-div-Master">
               </div> <!-- times-div-Master -->
             </div> <!-- times-div -->
@@ -483,132 +518,136 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">Verify_Logo</span>
-                <span class="method-start">23427 ms</span>
+                <span class="method-name">verifyLogoIsDisplayed</span>
+                <span class="method-start">17088 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">24537 ms</span>
+                <span class="method-start">17504 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.parabank.tests.TC002_RegistrationOfNewUserTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">26003 ms</span>
+                <span class="method-start">19295 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">Registration_of_new_user</span>
-                <span class="method-start">41663 ms</span>
+                <span class="method-name">registrationOfNewUser</span>
+                <span class="method-start">31125 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">57990 ms</span>
+                <span class="method-start">38525 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.parabank.tests.TC003_UserLoginWithValidCredentialsTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">68811 ms</span>
+                <span class="method-start">40053 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">User_login_with_valid_credentials</span>
-                <span class="method-start">86603 ms</span>
+                <span class="method-name">userLoginWithValidCredentials</span>
+                <span class="method-start">50280 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">91270 ms</span>
+                <span class="method-start">53169 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">93847 ms</span>
+                <span class="method-start">55708 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">Verify_login_failure_with_empty_username</span>
-                <span class="method-start">131264 ms</span>
+                <span class="method-name">verifyLoginFailureWithEmptyUsername</span>
+                <span class="method-start">65459 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">136669 ms</span>
+                <span class="method-start">67429 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">143312 ms</span>
+                <span class="method-start">68452 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">Verify_login_failure_with_incorrect_password</span>
-                <span class="method-start">180253 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyLoginFailureWithIncorrectPassword</span>
+                <span class="method-start">76692 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">182987 ms</span>
+                <span class="method-start">79909 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">184455 ms</span>
+                <span class="method-start">80845 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">Verify_account_balance_display_after_login</span>
-                <span class="method-start">196415 ms</span>
+                <span class="method-name">verifyAccountBalanceDisplayAfterLogin</span>
+                <span class="method-start">88636 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">200253 ms</span>
+                <span class="method-start">92269 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.parabank.tests.TC007_VerifySuccessfulLogoutTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">201400 ms</span>
+                <span class="method-start">95602 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">Verify_successful_logout</span>
-                <span class="method-start">220922 ms</span>
+                <span class="method-name">verifySuccessfulLogout</span>
+                <span class="method-start">117685 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">225193 ms</span>
+                <span class="method-start">122680 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">226905 ms</span>
+                <span class="method-start">124949 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">VerifyLoginWithBlankFieldsTest</span>
-                <span class="method-start">236027 ms</span>
+                <span class="method-name">verifyLoginWithBlankFields</span>
+                <span class="method-start">134795 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">238213 ms</span>
+                <span class="method-start">137124 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">241297 ms</span>
+                <span class="method-start">138966 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">VerifyCaseSensitivityInLoginTest</span>
-                <span class="method-start">250704 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyCaseSensitivityInLogin</span>
+                <span class="method-start">149038 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">252930 ms</span>
+                <span class="method-start">162928 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
