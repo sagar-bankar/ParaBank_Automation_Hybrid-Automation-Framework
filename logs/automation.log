@@ -309,3 +309,19 @@
 16:13:46.943 [main] INFO  com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest - Login failure message: 
 16:13:59.731 [main] INFO  com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest - Account balance display status: true
 16:14:30.142 [main] INFO  com.parabank.tests.TC007_VerifySuccessfulLogoutTest - Login panel displayed after logout: true
+18:09:47.946 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+18:13:29.696 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\30-10-2024 On words\Parabank_V1.2\Master.xml"
+18:14:15.099 [TestNG-tests-1] INFO  com.parabank.tests.TC001_VerifyLogoTest - Logo status retrieved: true
+18:15:45.731 [TestNG-tests-1] INFO  com.parabank.tests.TC003_UserLoginWithValidCredentialsTest - Login Username: admin11mu0
+18:15:45.732 [TestNG-tests-1] INFO  com.parabank.tests.TC003_UserLoginWithValidCredentialsTest - Login Password: admin123
+18:16:21.941 [TestNG-tests-1] INFO  com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest - Validation result (Empty Username): true
+18:16:47.494 [TestNG-tests-1] INFO  com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest - Login failure message: 
+18:17:08.786 [TestNG-tests-1] INFO  com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest - Account balance display status: true
+18:17:43.291 [TestNG-tests-1] INFO  com.parabank.tests.TC007_VerifySuccessfulLogoutTest - Login panel displayed after logout: true
+19:09:03.039 [main] INFO  com.parabank.tests.TC001_VerifyLogoTest - Logo status retrieved: true
+19:09:25.902 [main] INFO  com.parabank.tests.TC003_UserLoginWithValidCredentialsTest - Login Username: admin11VEC
+19:09:25.902 [main] INFO  com.parabank.tests.TC003_UserLoginWithValidCredentialsTest - Login Password: admin123
+19:09:37.181 [main] INFO  com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest - Validation result (Empty Username): true
+19:09:47.066 [main] INFO  com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest - Login failure message: The username and password could not be verified.
+19:10:02.227 [main] INFO  com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest - Account balance display status: true
+19:10:13.515 [main] INFO  com.parabank.tests.TC007_VerifySuccessfulLogoutTest - Login panel displayed after logout: true

@@ -2,168 +2,182 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Parallel]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="utilities.ExtentReportManager"/>
+    <listener class-name="com.parabank.utils.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="parallel2(failed)">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="testCases.TC_005_Verify_login_failure_with_incorrect_password">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="Verify_login_failure_with_incorrect_password"/>
-        </methods>
-      </class> <!-- testCases.TC_005_Verify_login_failure_with_incorrect_password -->
-      <class name="testCases.TC_001_Verify_Logo">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="Verify_Logo"/>
-        </methods>
-      </class> <!-- testCases.TC_001_Verify_Logo -->
-      <class name="testCases.TC_007_Verify_successful_logout">
-        <methods>
-          <include name="setup"/>
-          <include name="Verify_successful_logout"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testCases.TC_007_Verify_successful_logout -->
-      <class name="testCases.TC_003_User_login_with_valid_credentials">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="User_login_with_valid_credentials"/>
-        </methods>
-      </class> <!-- testCases.TC_003_User_login_with_valid_credentials -->
-      <class name="testCases.TC_006_Verify_account_balance_display_after_login">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="Verify_account_balance_display_after_login"/>
-        </methods>
-      </class> <!-- testCases.TC_006_Verify_account_balance_display_after_login -->
-      <class name="testCases.TC_004_Verify_login_failure_with_empty_username">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="Verify_login_failure_with_empty_username"/>
-        </methods>
-      </class> <!-- testCases.TC_004_Verify_login_failure_with_empty_username -->
-      <class name="testCases.TC_002_Registration_of_new_user">
-        <methods>
-          <include name="setup"/>
-          <include name="Registration_of_new_user"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testCases.TC_002_Registration_of_new_user -->
-    </classes>
-  </test> <!-- parallel2(failed) -->
-  <test thread-count="5" parallel="tests" name="parallel1(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="testCases.TC_005_Verify_login_failure_with_incorrect_password">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="Verify_login_failure_with_incorrect_password"/>
-        </methods>
-      </class> <!-- testCases.TC_005_Verify_login_failure_with_incorrect_password -->
-      <class name="testCases.TC_001_Verify_Logo">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="Verify_Logo"/>
-        </methods>
-      </class> <!-- testCases.TC_001_Verify_Logo -->
-      <class name="testCases.TC_007_Verify_successful_logout">
-        <methods>
-          <include name="setup"/>
-          <include name="Verify_successful_logout"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testCases.TC_007_Verify_successful_logout -->
-      <class name="testCases.TC_003_User_login_with_valid_credentials">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="User_login_with_valid_credentials"/>
-        </methods>
-      </class> <!-- testCases.TC_003_User_login_with_valid_credentials -->
-      <class name="testCases.TC_006_Verify_account_balance_display_after_login">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="Verify_account_balance_display_after_login"/>
-        </methods>
-      </class> <!-- testCases.TC_006_Verify_account_balance_display_after_login -->
-      <class name="testCases.TC_004_Verify_login_failure_with_empty_username">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="Verify_login_failure_with_empty_username"/>
-        </methods>
-      </class> <!-- testCases.TC_004_Verify_login_failure_with_empty_username -->
-      <class name="testCases.TC_002_Registration_of_new_user">
-        <methods>
-          <include name="setup"/>
-          <include name="Registration_of_new_user"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testCases.TC_002_Registration_of_new_user -->
-    </classes>
-  </test> <!-- parallel1(failed) -->
-  <test thread-count="5" parallel="tests" name="parallel3(failed)">
+  <test thread-count="5" parallel="tests" name="edge(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="testCases.TC_005_Verify_login_failure_with_incorrect_password">
+      <class name="com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest">
         <methods>
-          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="Verify_login_failure_with_incorrect_password"/>
+          <include name="setup"/>
+          <include name="verifyLoginFailureWithIncorrectPassword"/>
         </methods>
-      </class> <!-- testCases.TC_005_Verify_login_failure_with_incorrect_password -->
-      <class name="testCases.TC_001_Verify_Logo">
+      </class> <!-- com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest -->
+      <class name="com.parabank.tests.TC001_VerifyLogoTest">
         <methods>
-          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="Verify_Logo"/>
+          <include name="verifyLogoIsDisplayed"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_001_Verify_Logo -->
-      <class name="testCases.TC_007_Verify_successful_logout">
+      </class> <!-- com.parabank.tests.TC001_VerifyLogoTest -->
+      <class name="com.parabank.tests.TC007_VerifySuccessfulLogoutTest">
         <methods>
-          <include name="setup"/>
-          <include name="Verify_successful_logout"/>
           <include name="tearDown"/>
+          <include name="verifySuccessfulLogout"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_007_Verify_successful_logout -->
-      <class name="testCases.TC_003_User_login_with_valid_credentials">
+      </class> <!-- com.parabank.tests.TC007_VerifySuccessfulLogoutTest -->
+      <class name="com.parabank.tests.TC003_UserLoginWithValidCredentialsTest">
         <methods>
-          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="User_login_with_valid_credentials"/>
+          <include name="setup"/>
+          <include name="userLoginWithValidCredentials"/>
         </methods>
-      </class> <!-- testCases.TC_003_User_login_with_valid_credentials -->
-      <class name="testCases.TC_006_Verify_account_balance_display_after_login">
+      </class> <!-- com.parabank.tests.TC003_UserLoginWithValidCredentialsTest -->
+      <class name="com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest">
         <methods>
-          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="Verify_account_balance_display_after_login"/>
+          <include name="verifyAccountBalanceDisplayAfterLogin"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_006_Verify_account_balance_display_after_login -->
-      <class name="testCases.TC_004_Verify_login_failure_with_empty_username">
+      </class> <!-- com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest -->
+      <class name="com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest">
         <methods>
-          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="Verify_login_failure_with_empty_username"/>
+          <include name="setup"/>
+          <include name="verifyLoginFailureWithEmptyUsername"/>
         </methods>
-      </class> <!-- testCases.TC_004_Verify_login_failure_with_empty_username -->
-      <class name="testCases.TC_002_Registration_of_new_user">
+      </class> <!-- com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest -->
+      <class name="com.parabank.tests.TC002_RegistrationOfNewUserTest">
         <methods>
-          <include name="setup"/>
-          <include name="Registration_of_new_user"/>
           <include name="tearDown"/>
+          <include name="registrationOfNewUser"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_002_Registration_of_new_user -->
+      </class> <!-- com.parabank.tests.TC002_RegistrationOfNewUserTest -->
     </classes>
-  </test> <!-- parallel3(failed) -->
+  </test> <!-- edge(failed) -->
+  <test thread-count="5" parallel="tests" name="firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyLoginFailureWithIncorrectPassword"/>
+        </methods>
+      </class> <!-- com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest -->
+      <class name="com.parabank.tests.TC001_VerifyLogoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyLogoIsDisplayed"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.parabank.tests.TC001_VerifyLogoTest -->
+      <class name="com.parabank.tests.TC007_VerifySuccessfulLogoutTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifySuccessfulLogout"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.parabank.tests.TC007_VerifySuccessfulLogoutTest -->
+      <class name="com.parabank.tests.TC003_UserLoginWithValidCredentialsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="userLoginWithValidCredentials"/>
+        </methods>
+      </class> <!-- com.parabank.tests.TC003_UserLoginWithValidCredentialsTest -->
+      <class name="com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyAccountBalanceDisplayAfterLogin"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest -->
+      <class name="com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyLoginFailureWithEmptyUsername"/>
+        </methods>
+      </class> <!-- com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest -->
+      <class name="com.parabank.tests.TC002_RegistrationOfNewUserTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="registrationOfNewUser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.parabank.tests.TC002_RegistrationOfNewUserTest -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+  <test thread-count="5" parallel="tests" name="chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyCaseSensitivityInLogin"/>
+        </methods>
+      </class> <!-- com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest -->
+      <class name="com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyLoginWithBlankFields"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest -->
+      <class name="com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyLoginFailureWithIncorrectPassword"/>
+        </methods>
+      </class> <!-- com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest -->
+      <class name="com.parabank.tests.TC001_VerifyLogoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyLogoIsDisplayed"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.parabank.tests.TC001_VerifyLogoTest -->
+      <class name="com.parabank.tests.TC007_VerifySuccessfulLogoutTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifySuccessfulLogout"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.parabank.tests.TC007_VerifySuccessfulLogoutTest -->
+      <class name="com.parabank.tests.TC003_UserLoginWithValidCredentialsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="userLoginWithValidCredentials"/>
+        </methods>
+      </class> <!-- com.parabank.tests.TC003_UserLoginWithValidCredentialsTest -->
+      <class name="com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyAccountBalanceDisplayAfterLogin"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest -->
+      <class name="com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyLoginFailureWithEmptyUsername"/>
+        </methods>
+      </class> <!-- com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest -->
+      <class name="com.parabank.tests.TC002_RegistrationOfNewUserTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="registrationOfNewUser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.parabank.tests.TC002_RegistrationOfNewUserTest -->
+    </classes>
+  </test> <!-- chrome(failed) -->
 </suite> <!-- Failed suite [Parallel] -->

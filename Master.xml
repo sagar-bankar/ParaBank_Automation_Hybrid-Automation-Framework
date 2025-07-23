@@ -11,19 +11,28 @@
 	<test thread-count="5" name="Master">
 		<parameter name="os" value="windows" />
 		<parameter name="browser" value="chrome" />
-		
+
 
 		<classes>
-	        <class name="com.parabank.tests.TC001_VerifyLogoTest" />  
-			<class name="com.parabank.tests.TC002_RegistrationOfNewUserTest" /> 
-	        <class name="com.parabank.tests.TC003_UserLoginWithValidCredentialsTest" />  
-	    	<class name="com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest" />  
-			<class name="com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest" />  
-			<class name="com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest" />  
-			<class name="com.parabank.tests.TC007_VerifySuccessfulLogoutTest" />
-            <class name="com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest" />
-            <class name="com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest" />
+			<class name="com.parabank.tests.TC001_VerifyLogoTest" />
+			<class
+				name="com.parabank.tests.TC002_RegistrationOfNewUserTest" />
+			<class
+				name="com.parabank.tests.TC003_UserLoginWithValidCredentialsTest" />
+			<class
+				name="com.parabank.tests.TC004_VerifyLoginFailureWithEmptyUsernameTest" />
+			<class
+				name="com.parabank.tests.TC005_VerifyLoginFailureWithIncorrectPasswordTest" />
+			<class
+				name="com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest" />
+			<class
+				name="com.parabank.tests.TC007_VerifySuccessfulLogoutTest" />
+			<class
+				name="com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest" />
+			<class
+				name="com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest" />
 
 		</classes>
 	</test> <!-- Master -->
+	
 </suite> <!-- Master -->

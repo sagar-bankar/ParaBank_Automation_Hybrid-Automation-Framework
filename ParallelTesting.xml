@@ -8,7 +8,7 @@
   <listener  class-name="com.parabank.utils.ExtentReportManager"/>
   </listeners>
 
-  <test thread-count="5" name="parallel1">
+  <test thread-count="5" name="chrome">
   
     <parameter  name="browser"  value="chrome"/> 
   
@@ -24,13 +24,17 @@
 			<class
 				name="com.parabank.tests.TC006_VerifyAccountBalanceDisplayAfterLoginTest" />
 			<class name="com.parabank.tests.TC007_VerifySuccessfulLogoutTest" />
+			<class
+				name="com.parabank.tests.TC008_VerifyLoginWithBlankFieldsTest" />
+			<class
+				name="com.parabank.tests.TC009_VerifyCaseSensitivityInLoginTest" />
       
        
       
     </classes>
   </test> <!-- Master -->
   
-  <test thread-count="5" name="parallel2">
+  <test thread-count="5" name="firefox">
   
     <parameter  name="browser"  value="firefox"/> 
   
@@ -50,7 +54,7 @@
     </classes>
   </test> <!-- Master -->
   
-  <test thread-count="5" name="parallel3">
+  <test thread-count="5" name="edge">
   
     <parameter  name="browser"  value="edge"/> 
   
